@@ -1,0 +1,30 @@
+import {useState} from 'react';
+import {NavLink,Outlet,useLocation,Link} from 'react-router-dom';
+import {BookHeart,BookOpen,Bookmark,ChartNoAxesCombined,Flame,GraduationCap,Home,Menu,Moon,PlayCircle,Search,Settings2,Sun,UsersRound,Volume2,X,Zap,MessageCircle,Target,ShieldCheck,Cloud,LogIn} from 'lucide-react';
+import {useLearning} from '../lib/LearningContext';
+import {useAuth} from '../lib/AuthContext';
+import {Onboarding} from './Onboarding';
+import {MomiCompanion} from './MomiCompanion';
+import {Avatar} from './Avatar';
+import {AccountModal} from './AccountModal';
+import {WORDS} from '../data/catalog';
+const GROUPS=[
+ {label:'YOUR LEARNING',links:[{to:'/',name:'My dashboard',Icon:Home},{to:'/learn',name:'Learning path',Icon:GraduationCap},{to:'/dictionary',name:'Dictionary',Icon:BookOpen},{to:'/practice',name:'Practice arena',Icon:Zap},{to:'/talk',name:'Momi Talk',Icon:MessageCircle},{to:'/challenges',name:'Daily challenges',Icon:Target}]},
+ {label:'DISCOVER & PRESERVE',links:[{to:'/media',name:'Listen & watch',Icon:PlayCircle},{to:'/heritage',name:'Heritage archive',Icon:BookHeart},{to:'/community',name:'Contribute',Icon:UsersRound},{to:'/saved',name:'My collection',Icon:Bookmark}]},
+ {label:'YOUR SPACE',links:[{to:'/progress',name:'Learning insights',Icon:ChartNoAxesCombined},{to:'/studio',name:'Creator studio',Icon:ShieldCheck},{to:'/profile',name:'Profile & avatars',Icon:Settings2}]}
+];
+export function Blossom({size='md'}:{size?:'sm'|'md'|'lg'}){return <span aria-hidden className={`blossom blossom-${size}`}>✿</span>}
+export function Layout(){const {data,updateProfile}=useLearning();const {user,configured}=useAuth();const [menu,setMenu]=useState(false);const [account,setAccount]=useState(false);const loc=useLocation();const activeName=GROUPS.flatMap(g=>g.links).find(n=>n.to===loc.pathname)?.name||'Lesson';
+ return <div className="app-shell"><a className="skip-nav" href="#main">Skip to content</a>{menu&&<button aria-label="Close navigation" className="sidebar-scrim" onClick={()=>setMenu(false)}/>}
+ <aside className={`sidebar ${menu?'is-open':''}`}>
+ <div className="brand" role="presentation"><Link to="/" className="brand-logo" onClick={()=>setMenu(false)} aria-label="Momi home"><Blossom size="lg"/></Link><div><div className="brand-name">momi<span>.</span></div><div className="brand-sub">THE MEMONI LANGUAGE APP</div></div><button type="button" className="mobile-close icon-button" onClick={e=>{e.preventDefault();setMenu(false)}} aria-label="Close navigation"><X size={20}/></button></div>
+ <div className="sidebar-tagline">Learn the language.<br/><strong>Carry the culture.</strong></div>
+ <nav aria-label="Main navigation">{GROUPS.map(g=><div className="nav-group" key={g.label}><div className="nav-group-title">{g.label}</div>{g.links.map(({to,name,Icon})=><NavLink key={to} to={to} end={to==='/'} onClick={()=>setMenu(false)} className={({isActive})=>`side-link ${isActive?'active':''}`}><Icon size={18} strokeWidth={1.8}/><span>{name}</span>{name==='My collection'&&data.favorites.length>0&&<small>{data.favorites.length}</small>}</NavLink>)}</div>)}</nav>
+ <div className="sidebar-bottom"><div className="sidebar-voice"><div className="sidebar-voice-icon"><Volume2 size={18}/></div><div><b>Keep the words alive.</b><p>{WORDS.length} words & growing</p></div></div><Link to="/profile" onClick={()=>setMenu(false)} className="sidebar-profile"><Avatar id={data.avatar} size={41}/><span className="profile-words"><b>{data.name||'Learner'}</b><small>{user?'Cloud learner':'Local learner'}</small></span><Settings2 size={17}/></Link></div>
+ </aside>
+ <div className="main-area"><header className="topbar"><div className="topbar-left"><button className="hamburger icon-button" aria-label="Open navigation" onClick={()=>setMenu(true)}><Menu size={22}/></button><span className="breadcrumb-label">YOUR LEARNING SPACE</span><span className="breadcrumb-slash">/</span><b>{activeName}</b></div><div className="topbar-right"><Link to="/challenges" className="top-stat" title="Current streak"><Flame size={16} fill="#f3a455" color="#e89850"/> {data.streak} <span className="stat-word">day streak</span></Link><span className="top-stat"><Zap size={16} fill="#e6b34e" color="#c18c2e"/> {data.xp} <span className="stat-word">XP</span></span><button className="theme-top icon-button" onClick={()=>updateProfile({dark:!data.dark})} aria-label="Toggle dark mode">{data.dark?<Sun size={19}/>:<Moon size={19}/>}</button><button className="top-account" onClick={()=>setAccount(true)} aria-label="Manage cloud account" title={configured?(user?'Signed in':'Sign in'):'Local mode'}>{user?<Cloud size={17}/>:<LogIn size={17}/>}</button><Link to="/profile" className="avatar-top" aria-label="Open avatar and profile settings"><Avatar id={data.avatar} size={35}/></Link></div></header><main id="main" className="content-area"><Outlet/></main><footer className="app-footer">✿ Made to keep Memoni close. <span>Learn • Listen • Belong</span></footer></div>
+ <nav className="mobile-bottom" aria-label="Mobile navigation">{[{to:'/',name:'Home',Icon:Home},{to:'/learn',name:'Learn',Icon:GraduationCap},{to:'/dictionary',name:'Words',Icon:Search},{to:'/talk',name:'Talk',Icon:MessageCircle}].map(({to,name,Icon})=><NavLink key={to} end={to==='/'} to={to} className={({isActive})=>isActive?'active':''}><Icon size={21}/><span>{name}</span></NavLink>)}<button onClick={()=>setMenu(true)}><Menu size={21}/><span>More</span></button></nav>
+ <MomiCompanion/><Onboarding/>{account&&<AccountModal close={()=>setAccount(false)}/>}</div>;
+}
+export function PageHeader({eyebrow,title,description,action}:{eyebrow:string;title:string;description:string;action?:React.ReactNode}){return <div className="page-heading"><div><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{description}</p></div>{action&&<div className="heading-action">{action}</div>}</div>}
+export function SectionTitle({title,sub,action}:{title:string;sub?:string;action?:React.ReactNode}){return <div className="section-heading"><div><h2>{title}</h2>{sub&&<p>{sub}</p>}</div>{action}</div>}

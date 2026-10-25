@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import {BrowserRouter} from 'react-router-dom';
+import {LearningProvider} from './lib/LearningContext';
+import {AuthProvider} from './lib/AuthContext';
+import {CloudSync} from './lib/CloudSync';
+import App from './App';
+import './styles.css';
+ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><BrowserRouter><AuthProvider><LearningProvider><CloudSync/><App/></LearningProvider></AuthProvider></BrowserRouter></React.StrictMode>);
+if('serviceWorker'in navigator&&import.meta.env.PROD)window.addEventListener('load',()=>{void navigator.serviceWorker.register('/sw.js').catch(()=>{})});

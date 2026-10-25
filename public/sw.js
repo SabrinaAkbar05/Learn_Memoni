@@ -1,0 +1,5 @@
+/* Offline support for the built app shell and previously visited audio. */
+const CACHE='momi-studio-v3';
+self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(['/','/index.html','/icon.svg','/manifest.webmanifest'])));self.skipWaiting()});
+self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});
+self.addEventListener('fetch',event=>{const r=event.request;const url=new URL(r.url);if(r.method!=='GET'||url.origin!==self.location.origin)return;event.respondWith((async()=>{try{const result=await fetch(r);if(result.ok&&(url.pathname.startsWith('/assets/')||url.pathname.startsWith('/audio/')||url.pathname==='/'||url.pathname==='/index.html')){const c=await caches.open(CACHE);c.put(r,result.clone())}return result}catch{const cached=await caches.match(r);if(cached)return cached;if(r.mode==='navigate'){const shell=await caches.match('/index.html');if(shell)return shell}return Response.error()}})())});

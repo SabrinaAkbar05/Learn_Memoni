@@ -1,0 +1,3556 @@
+[
+  {
+    "id": "greet_001",
+    "category": "greetings",
+    "emoji": "🤝",
+    "memoni_script": "السلام علیکم",
+    "roman_memoni": "Assalamualaikum",
+    "urdu_meaning": "السلام علیکم",
+    "english_meaning": "Assalamualikum",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_001",
+    "tags": [
+      "greeting",
+      "religious",
+      "common"
+    ]
+  },
+  {
+    "id": "greet_002",
+    "category": "greetings",
+    "emoji": "😊",
+    "memoni_script": "کی این / اے کی یو",
+    "roman_memoni": "Ki Ayen / Aye Ki Yo",
+    "urdu_meaning": "کیسے ہو؟",
+    "english_meaning": "How are you?",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_002",
+    "tags": [
+      "greeting",
+      "question",
+      "common"
+    ]
+  },
+  {
+    "id": "greet_003",
+    "category": "greetings",
+    "emoji": "👍",
+    "memoni_script": "آؤ ٹھیک ایاں",
+    "roman_memoni": "Ao Theek Ayan",
+    "urdu_meaning": "میں ٹھیک ہوں",
+    "english_meaning": "I am fine",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_003",
+    "tags": [
+      "response",
+      "common"
+    ]
+  },
+  {
+    "id": "greet_004",
+    "category": "greetings",
+    "emoji": "👋",
+    "memoni_script": "خدا حافظ",
+    "roman_memoni": "Khuda Hafiz",
+    "urdu_meaning": "خدا حافظ",
+    "english_meaning": "Goodbye",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_004",
+    "tags": [
+      "farewell"
+    ]
+  },
+  {
+    "id": "greet_005",
+    "category": "greetings",
+    "emoji": "🙏",
+    "memoni_script": "بو بو مہربانی",
+    "roman_memoni": "Bo Bo Mehrbani",
+    "urdu_meaning": "شکریہ",
+    "english_meaning": "Thank you",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_005",
+    "tags": [
+      "polite"
+    ]
+  },
+  {
+    "id": "greet_006",
+    "category": "greetings",
+    "emoji": "🤗",
+    "memoni_script": "اچھو اچھو",
+    "roman_memoni": "Acho Acho",
+    "urdu_meaning": "خوش آمدید",
+    "english_meaning": "Welcome",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_006",
+    "tags": [
+      "welcome"
+    ]
+  },
+  {
+    "id": "greet_007",
+    "category": "greetings",
+    "emoji": "🙏",
+    "memoni_script": "معاف کرجا",
+    "roman_memoni": "Maaf Krja",
+    "urdu_meaning": "معاف کرنا",
+    "english_meaning": "Forgive me",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_007",
+    "tags": [
+      "apology"
+    ]
+  },
+  {
+    "id": "greet_008",
+    "category": "greetings",
+    "emoji": "✅",
+    "memoni_script": "ها",
+    "roman_memoni": "Haa",
+    "urdu_meaning": "ہاں",
+    "english_meaning": "Yes",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_008",
+    "tags": [
+      "basic",
+      "response"
+    ]
+  },
+  {
+    "id": "greet_009",
+    "category": "greetings",
+    "emoji": "❌",
+    "memoni_script": "نه",
+    "roman_memoni": "Nah",
+    "urdu_meaning": "نہیں",
+    "english_meaning": "No",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_009",
+    "tags": [
+      "basic",
+      "response"
+    ]
+  },
+  {
+    "id": "greet_010",
+    "category": "greetings",
+    "emoji": "🌞",
+    "memoni_script": "صبح جو",
+    "roman_memoni": "Subah jo",
+    "urdu_meaning": "صبح بخیر",
+    "english_meaning": "Good Morning",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_010",
+    "tags": [
+      "time-greeting",
+      "daily"
+    ]
+  },
+  {
+    "id": "greet_011",
+    "category": "greetings",
+    "emoji": "👋",
+    "memoni_script": "پچی ملناس",
+    "roman_memoni": "Pachi Milnaas",
+    "urdu_meaning": "اچھا پھر ملیں گے",
+    "english_meaning": "See you later",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "greet_011",
+    "tags": [
+      "farewell"
+    ]
+  },
+  {
+    "id": "greet_012",
+    "category": "greetings",
+    "emoji": "🎉",
+    "memoni_script": "بو بو مبارک این کے",
+    "roman_memoni": "Bo Bo Mubarak Ayen Key",
+    "urdu_meaning": "مبارک ہو",
+    "english_meaning": "Congratulations",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_012",
+    "tags": [
+      "celebration"
+    ]
+  },
+  {
+    "id": "greet_013",
+    "category": "greetings",
+    "emoji": "🤲",
+    "memoni_script": "دعائیں مئی یاد رکھجا",
+    "roman_memoni": "Duaien Mai Yad Rkhja",
+    "urdu_meaning": "دعاؤں میں یاد رکھنا",
+    "english_meaning": "Remember me in your prayers",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "greet_013",
+    "tags": [
+      "prayer"
+    ]
+  },
+  {
+    "id": "greet_014",
+    "category": "greetings",
+    "emoji": "😊",
+    "memoni_script": "خوش ریو",
+    "roman_memoni": "Khush Riyo",
+    "urdu_meaning": "خوش رہو",
+    "english_meaning": "Stay happy",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_014",
+    "tags": [
+      "blessing"
+    ]
+  },
+  {
+    "id": "greet_015",
+    "category": "greetings",
+    "emoji": "🪑",
+    "memoni_script": "اچھو ویو",
+    "roman_memoni": "Acho Viyo",
+    "urdu_meaning": "آؤ بیٹھو",
+    "english_meaning": "Come, sit",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_015",
+    "tags": [
+      "hospitality"
+    ]
+  },
+  {
+    "id": "greet_016",
+    "category": "greetings",
+    "emoji": "🤲",
+    "memoni_script": "دعائن ۾ ياد رکجا",
+    "roman_memoni": "Dua mein yaad rakho",
+    "urdu_meaning": "دعا میں یاد رکھنا",
+    "english_meaning": "Remember in prayers",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "greet_016",
+    "tags": [
+      "religious",
+      "farewell"
+    ]
+  },
+  {
+    "id": "greet_017",
+    "category": "greetings",
+    "emoji": "😄",
+    "memoni_script": "خوش رهو",
+    "roman_memoni": "Khush raho",
+    "urdu_meaning": "خوش رہو",
+    "english_meaning": "Stay happy",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_017",
+    "tags": [
+      "blessing",
+      "common"
+    ]
+  },
+  {
+    "id": "greet_018",
+    "category": "greetings",
+    "emoji": "🏠",
+    "memoni_script": "گهر آيو",
+    "roman_memoni": "Ghar aayo",
+    "urdu_meaning": "گھر آئے",
+    "english_meaning": "Welcome home",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_018",
+    "tags": [
+      "home",
+      "welcome"
+    ]
+  },
+  {
+    "id": "greet_019",
+    "category": "greetings",
+    "emoji": "💬",
+    "memoni_script": "ڪيئن ٿيو؟",
+    "roman_memoni": "Kein thyo?",
+    "urdu_meaning": "کیسا ہوا؟",
+    "english_meaning": "How did it go?",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_019",
+    "tags": [
+      "question",
+      "casual"
+    ]
+  },
+  {
+    "id": "greet_020",
+    "category": "greetings",
+    "emoji": "🌸",
+    "memoni_script": "اچو بيهو",
+    "roman_memoni": "Acho beeho",
+    "urdu_meaning": "آؤ بیٹھو",
+    "english_meaning": "Come, sit down",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "greet_020",
+    "tags": [
+      "hospitality",
+      "everyday"
+    ]
+  },
+  {
+    "id": "family_001",
+    "category": "family",
+    "emoji": "👨",
+    "memoni_script": "باپا",
+    "roman_memoni": "Bapa",
+    "urdu_meaning": "ابّو / والد",
+    "english_meaning": "Father",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_001",
+    "tags": [
+      "father",
+      "family",
+      "male"
+    ]
+  },
+  {
+    "id": "family_002",
+    "category": "family",
+    "emoji": "👩",
+    "memoni_script": "ماں",
+    "roman_memoni": "Maa",
+    "urdu_meaning": "ماں",
+    "english_meaning": "Mother",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_002",
+    "tags": [
+      "mother",
+      "family",
+      "female"
+    ]
+  },
+  {
+    "id": "family_003",
+    "category": "family",
+    "emoji": "👴",
+    "memoni_script": "دادا",
+    "roman_memoni": "Dada",
+    "urdu_meaning": "دادا",
+    "english_meaning": "Paternal Grandfather",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_003",
+    "tags": [
+      "grandfather",
+      "family",
+      "male"
+    ]
+  },
+  {
+    "id": "family_004",
+    "category": "family",
+    "emoji": "👵",
+    "memoni_script": "نانی ماں",
+    "roman_memoni": "Nani Maa",
+    "urdu_meaning": "نانی",
+    "english_meaning": "Maternal Grandmother",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_004",
+    "tags": [
+      "grandmother",
+      "family",
+      "female"
+    ]
+  },
+  {
+    "id": "family_005",
+    "category": "family",
+    "emoji": "👴",
+    "memoni_script": "نانا پے",
+    "roman_memoni": "Nana Pey",
+    "urdu_meaning": "نانا",
+    "english_meaning": "Maternal Grandfather",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_005",
+    "tags": [
+      "grandfather",
+      "family",
+      "male"
+    ]
+  },
+  {
+    "id": "family_006",
+    "category": "family",
+    "emoji": "👧",
+    "memoni_script": "دھِی",
+    "roman_memoni": "Dhi",
+    "urdu_meaning": "بیٹی",
+    "english_meaning": "Daughter",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_006",
+    "tags": [
+      "daughter",
+      "family",
+      "female"
+    ]
+  },
+  {
+    "id": "family_007",
+    "category": "family",
+    "emoji": "👦",
+    "memoni_script": "پُتر",
+    "roman_memoni": "Puttar",
+    "urdu_meaning": "بیٹا",
+    "english_meaning": "Son",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_007",
+    "tags": [
+      "son",
+      "family",
+      "male"
+    ]
+  },
+  {
+    "id": "family_008",
+    "category": "family",
+    "emoji": "👧",
+    "memoni_script": "ڌيءَ",
+    "roman_memoni": "Dhee",
+    "urdu_meaning": "بیٹی",
+    "english_meaning": "Daughter",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_008",
+    "tags": [
+      "immediate-family",
+      "female"
+    ]
+  },
+  {
+    "id": "family_009",
+    "category": "family",
+    "emoji": "👦",
+    "memoni_script": "بھا",
+    "roman_memoni": "Bha",
+    "urdu_meaning": "بھائی",
+    "english_meaning": "Brother",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_009",
+    "tags": [
+      "brother",
+      "family",
+      "male"
+    ]
+  },
+  {
+    "id": "family_010",
+    "category": "family",
+    "emoji": "👩",
+    "memoni_script": "ماسی",
+    "roman_memoni": "Massi",
+    "urdu_meaning": "خالہ",
+    "english_meaning": "Maternal Aunt",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_010",
+    "tags": [
+      "aunt",
+      "family",
+      "female"
+    ]
+  },
+  {
+    "id": "family_011",
+    "category": "family",
+    "emoji": "👨",
+    "memoni_script": "کاکا",
+    "roman_memoni": "Kaka",
+    "urdu_meaning": "چچا",
+    "english_meaning": "Paternal Uncle",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_011",
+    "tags": [
+      "uncle",
+      "family",
+      "male"
+    ]
+  },
+  {
+    "id": "family_012",
+    "category": "family",
+    "emoji": "💍",
+    "memoni_script": "دھاری",
+    "roman_memoni": "Dhari",
+    "urdu_meaning": "شوہر",
+    "english_meaning": "Husband",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_012",
+    "tags": [
+      "husband",
+      "family",
+      "male"
+    ]
+  },
+  {
+    "id": "family_013",
+    "category": "family",
+    "emoji": "👨",
+    "memoni_script": "ماما",
+    "roman_memoni": "Mama",
+    "urdu_meaning": "ماموں",
+    "english_meaning": "Maternal Uncle",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_013",
+    "tags": [
+      "uncle",
+      "family",
+      "male"
+    ]
+  },
+  {
+    "id": "family_014",
+    "category": "family",
+    "emoji": "👶",
+    "memoni_script": "بچو",
+    "roman_memoni": "Bacho",
+    "urdu_meaning": "بچہ",
+    "english_meaning": "Child",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_014",
+    "tags": [
+      "child",
+      "family"
+    ]
+  },
+  {
+    "id": "family_015",
+    "category": "family",
+    "emoji": "👰",
+    "memoni_script": "لگائی",
+    "roman_memoni": "Lugai",
+    "urdu_meaning": "بیوی",
+    "english_meaning": "Wife",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_015",
+    "tags": [
+      "wife",
+      "family",
+      "female"
+    ]
+  },
+  {
+    "id": "family_016",
+    "category": "family",
+    "emoji": "👵",
+    "memoni_script": "سُس",
+    "roman_memoni": "Sus",
+    "urdu_meaning": "ساس",
+    "english_meaning": "Mother-in-law",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_016",
+    "tags": [
+      "mother-in-law",
+      "family",
+      "female"
+    ]
+  },
+  {
+    "id": "family_017",
+    "category": "family",
+    "emoji": "👴",
+    "memoni_script": "بُڈھو",
+    "roman_memoni": "Budho",
+    "urdu_meaning": "بزرگ",
+    "english_meaning": "Elder / Old person",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_017",
+    "tags": [
+      "elder",
+      "family",
+      "respect"
+    ]
+  },
+  {
+    "id": "family_018",
+    "category": "family",
+    "emoji": "👨‍👩‍👧‍👦",
+    "memoni_script": "پریوار",
+    "roman_memoni": "Pariwar",
+    "urdu_meaning": "خاندان",
+    "english_meaning": "Family",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_018",
+    "tags": [
+      "family",
+      "general"
+    ]
+  },
+  {
+    "id": "family_019",
+    "category": "family",
+    "emoji": "👨‍👩‍👧‍👦",
+    "memoni_script": "ڪٽنب / خاندان",
+    "roman_memoni": "Kutumb / Khaandan",
+    "urdu_meaning": "خاندان",
+    "english_meaning": "Family",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "family_019",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "family_020",
+    "category": "family",
+    "emoji": "👴",
+    "memoni_script": "بزرگ / وڏو",
+    "roman_memoni": "Buzurg / Vado",
+    "urdu_meaning": "بزرگ",
+    "english_meaning": "Elder / Senior person",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "family_020",
+    "tags": [
+      "respect",
+      "general"
+    ]
+  },
+  {
+    "id": "food_001",
+    "category": "food",
+    "emoji": "🍞",
+    "memoni_script": "روٹی",
+    "roman_memoni": "Roti",
+    "urdu_meaning": "روٹی",
+    "english_meaning": "Bread (Roti)",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_001",
+    "tags": [
+      "bread",
+      "food",
+      "daily"
+    ]
+  },
+  {
+    "id": "food_002",
+    "category": "food",
+    "emoji": "🍚",
+    "memoni_script": "کھاؤ",
+    "roman_memoni": "Khawu",
+    "urdu_meaning": "چاول",
+    "english_meaning": "Rice",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_002",
+    "tags": [
+      "rice",
+      "food",
+      "daily"
+    ]
+  },
+  {
+    "id": "food_003",
+    "category": "food",
+    "emoji": "💧",
+    "memoni_script": "پانی",
+    "roman_memoni": "Pani",
+    "urdu_meaning": "پانی",
+    "english_meaning": "Water",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_003",
+    "tags": [
+      "water",
+      "drink",
+      "daily"
+    ]
+  },
+  {
+    "id": "food_004",
+    "category": "food",
+    "emoji": "🥛",
+    "memoni_script": "کھیر",
+    "roman_memoni": "Kheer",
+    "urdu_meaning": "دودھ",
+    "english_meaning": "Milk",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_004",
+    "tags": [
+      "milk",
+      "drink",
+      "daily"
+    ]
+  },
+  {
+    "id": "food_005",
+    "category": "food",
+    "emoji": "🐟",
+    "memoni_script": "مچھی",
+    "roman_memoni": "Machi",
+    "urdu_meaning": "مچھلی",
+    "english_meaning": "Fish",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_005",
+    "tags": [
+      "fish",
+      "food",
+      "seafood"
+    ]
+  },
+  {
+    "id": "food_006",
+    "category": "food",
+    "emoji": "🍖",
+    "memoni_script": "گوشت",
+    "roman_memoni": "Gosht",
+    "urdu_meaning": "گوشت",
+    "english_meaning": "Meat",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_006",
+    "tags": [
+      "meat",
+      "food",
+      "protein"
+    ]
+  },
+  {
+    "id": "food_007",
+    "category": "food",
+    "emoji": "🍬",
+    "memoni_script": "میٹھو",
+    "roman_memoni": "Mitho",
+    "urdu_meaning": "میٹھا",
+    "english_meaning": "Sweet",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_007",
+    "tags": [
+      "sweet",
+      "taste",
+      "food"
+    ]
+  },
+  {
+    "id": "food_008",
+    "category": "food",
+    "emoji": "🫖",
+    "memoni_script": "چھا",
+    "roman_memoni": "Cha",
+    "urdu_meaning": "چائے",
+    "english_meaning": "Tea",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_008",
+    "tags": [
+      "tea",
+      "drink",
+      "daily"
+    ]
+  },
+  {
+    "id": "food_009",
+    "category": "food",
+    "emoji": "🧅",
+    "memoni_script": "ڈونگڑی",
+    "roman_memoni": "Doongri",
+    "urdu_meaning": "پیاز",
+    "english_meaning": "Onion",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_009",
+    "tags": [
+      "onion",
+      "vegetable",
+      "food"
+    ]
+  },
+  {
+    "id": "food_010",
+    "category": "food",
+    "emoji": "🥔",
+    "memoni_script": "بٹاٹا",
+    "roman_memoni": "Batata",
+    "urdu_meaning": "آلو",
+    "english_meaning": "Potato",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_010",
+    "tags": [
+      "potato",
+      "vegetable",
+      "food"
+    ]
+  },
+  {
+    "id": "food_011",
+    "category": "food",
+    "emoji": "🌶️",
+    "memoni_script": "مرچی",
+    "roman_memoni": "Mirchi",
+    "urdu_meaning": "مرچ",
+    "english_meaning": "Chili",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_011",
+    "tags": [
+      "chili",
+      "spice",
+      "food"
+    ]
+  },
+  {
+    "id": "food_012",
+    "category": "food",
+    "emoji": "🌶️",
+    "memoni_script": "لیلی مرچی",
+    "roman_memoni": "Lily Mirchi",
+    "urdu_meaning": "لال مرچ",
+    "english_meaning": "Red Chili",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_012",
+    "tags": [
+      "red-chili",
+      "spice",
+      "food"
+    ]
+  },
+  {
+    "id": "food_013",
+    "category": "food",
+    "emoji": "🌿",
+    "memoni_script": "ہری مرچی",
+    "roman_memoni": "Hari Mirchi",
+    "urdu_meaning": "ہری مرچ",
+    "english_meaning": "Green Chili",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_013",
+    "tags": [
+      "green-chili",
+      "spice",
+      "food"
+    ]
+  },
+  {
+    "id": "food_014",
+    "category": "food",
+    "emoji": "🥚",
+    "memoni_script": "انڈو",
+    "roman_memoni": "Ando",
+    "urdu_meaning": "انڈا",
+    "english_meaning": "Egg",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_014",
+    "tags": [
+      "egg",
+      "protein",
+      "food"
+    ]
+  },
+  {
+    "id": "food_015",
+    "category": "food",
+    "emoji": "🧄",
+    "memoni_script": "لسن",
+    "roman_memoni": "Lasan",
+    "urdu_meaning": "لہسن",
+    "english_meaning": "Garlic",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_015",
+    "tags": [
+      "garlic",
+      "spice",
+      "food"
+    ]
+  },
+  {
+    "id": "food_016",
+    "category": "food",
+    "emoji": "🥬",
+    "memoni_script": "سبجی",
+    "roman_memoni": "Sabji",
+    "urdu_meaning": "سبزی",
+    "english_meaning": "Vegetable",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_016",
+    "tags": [
+      "vegetable",
+      "food",
+      "daily"
+    ]
+  },
+  {
+    "id": "food_017",
+    "category": "food",
+    "emoji": "🍋",
+    "memoni_script": "لیمڑا",
+    "roman_memoni": "Limra",
+    "urdu_meaning": "لیموں",
+    "english_meaning": "Lemon",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_017",
+    "tags": [
+      "lemon",
+      "fruit",
+      "food"
+    ]
+  },
+  {
+    "id": "food_018",
+    "category": "food",
+    "emoji": "🍎",
+    "memoni_script": "سیب",
+    "roman_memoni": "Saib",
+    "urdu_meaning": "سیب",
+    "english_meaning": "Apple",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_018",
+    "tags": [
+      "apple",
+      "fruit",
+      "food"
+    ]
+  },
+  {
+    "id": "food_019",
+    "category": "food",
+    "emoji": "🍚",
+    "memoni_script": "کھنڈ",
+    "roman_memoni": "Khand",
+    "urdu_meaning": "چینی",
+    "english_meaning": "Sugar",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_019",
+    "tags": [
+      "sugar",
+      "sweet",
+      "food"
+    ]
+  },
+  {
+    "id": "food_020",
+    "category": "food",
+    "emoji": "🧂",
+    "memoni_script": "مٹھو",
+    "roman_memoni": "Mitho",
+    "urdu_meaning": "نمک",
+    "english_meaning": "Salt",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_020",
+    "tags": [
+      "salt",
+      "spice",
+      "food"
+    ]
+  },
+  {
+    "id": "numbers_001",
+    "category": "numbers",
+    "emoji": "1️⃣",
+    "memoni_script": "اکھرو",
+    "roman_memoni": "Akhro",
+    "urdu_meaning": "ایک",
+    "english_meaning": "One",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_001",
+    "tags": [
+      "number",
+      "one",
+      "beginner"
+    ],
+    "numeral": 1
+  },
+  {
+    "id": "numbers_002",
+    "category": "numbers",
+    "emoji": "2️⃣",
+    "memoni_script": "بو",
+    "roman_memoni": "Bo",
+    "urdu_meaning": "دو",
+    "english_meaning": "Two",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_002",
+    "tags": [
+      "number",
+      "two",
+      "beginner"
+    ],
+    "numeral": 2
+  },
+  {
+    "id": "numbers_003",
+    "category": "numbers",
+    "emoji": "3️⃣",
+    "memoni_script": "ترے",
+    "roman_memoni": "Tre",
+    "urdu_meaning": "تین",
+    "english_meaning": "Three",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_003",
+    "tags": [
+      "number",
+      "three",
+      "beginner"
+    ],
+    "numeral": 3
+  },
+  {
+    "id": "numbers_004",
+    "category": "numbers",
+    "emoji": "4️⃣",
+    "memoni_script": "چار",
+    "roman_memoni": "Char",
+    "urdu_meaning": "چار",
+    "english_meaning": "Four",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_004",
+    "tags": [
+      "number",
+      "four",
+      "beginner"
+    ],
+    "numeral": 4
+  },
+  {
+    "id": "numbers_005",
+    "category": "numbers",
+    "emoji": "5️⃣",
+    "memoni_script": "پنج",
+    "roman_memoni": "Punj",
+    "urdu_meaning": "پانچ",
+    "english_meaning": "Five",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_005",
+    "tags": [
+      "number",
+      "five",
+      "beginner"
+    ],
+    "numeral": 5
+  },
+  {
+    "id": "numbers_006",
+    "category": "numbers",
+    "emoji": "6️⃣",
+    "memoni_script": "چھو",
+    "roman_memoni": "Cho",
+    "urdu_meaning": "چھ",
+    "english_meaning": "Six",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_006",
+    "tags": [
+      "number",
+      "six",
+      "beginner"
+    ],
+    "numeral": 6
+  },
+  {
+    "id": "numbers_007",
+    "category": "numbers",
+    "emoji": "7️⃣",
+    "memoni_script": "ستھ",
+    "roman_memoni": "Suth",
+    "urdu_meaning": "سات",
+    "english_meaning": "Seven",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_007",
+    "tags": [
+      "number",
+      "seven",
+      "beginner"
+    ],
+    "numeral": 7
+  },
+  {
+    "id": "numbers_008",
+    "category": "numbers",
+    "emoji": "8️⃣",
+    "memoni_script": "اٹھ",
+    "roman_memoni": "Ath",
+    "urdu_meaning": "آٹھ",
+    "english_meaning": "Eight",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_008",
+    "tags": [
+      "number",
+      "eight",
+      "beginner"
+    ],
+    "numeral": 8
+  },
+  {
+    "id": "numbers_009",
+    "category": "numbers",
+    "emoji": "9️⃣",
+    "memoni_script": "نو",
+    "roman_memoni": "No",
+    "urdu_meaning": "نو",
+    "english_meaning": "Nine",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_009",
+    "tags": [
+      "number",
+      "nine",
+      "beginner"
+    ],
+    "numeral": 9
+  },
+  {
+    "id": "numbers_010",
+    "category": "numbers",
+    "emoji": "🔟",
+    "memoni_script": "دھو",
+    "roman_memoni": "Dho",
+    "urdu_meaning": "دس",
+    "english_meaning": "Ten",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_010",
+    "tags": [
+      "number",
+      "ten",
+      "beginner"
+    ],
+    "numeral": 10
+  },
+  {
+    "id": "numbers_011",
+    "category": "numbers",
+    "emoji": "1️⃣1️⃣",
+    "memoni_script": "گیارو",
+    "roman_memoni": "Giyaro",
+    "urdu_meaning": "گیارہ",
+    "english_meaning": "Eleven",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_011",
+    "tags": [
+      "number",
+      "eleven"
+    ],
+    "numeral": 11
+  },
+  {
+    "id": "numbers_012",
+    "category": "numbers",
+    "emoji": "1️⃣2️⃣",
+    "memoni_script": "بارو",
+    "roman_memoni": "Baro",
+    "urdu_meaning": "بارہ",
+    "english_meaning": "Twelve",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_012",
+    "tags": [
+      "number",
+      "twelve"
+    ],
+    "numeral": 12
+  },
+  {
+    "id": "numbers_013",
+    "category": "numbers",
+    "emoji": "1️⃣3️⃣",
+    "memoni_script": "تیرو",
+    "roman_memoni": "Tero",
+    "urdu_meaning": "تیرہ",
+    "english_meaning": "Thirteen",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_013",
+    "tags": [
+      "number",
+      "thirteen"
+    ],
+    "numeral": 13
+  },
+  {
+    "id": "numbers_014",
+    "category": "numbers",
+    "emoji": "1️⃣4️⃣",
+    "memoni_script": "چودھو",
+    "roman_memoni": "Chodho",
+    "urdu_meaning": "چودہ",
+    "english_meaning": "Fourteen",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_014",
+    "tags": [
+      "number",
+      "fourteen"
+    ],
+    "numeral": 14
+  },
+  {
+    "id": "numbers_015",
+    "category": "numbers",
+    "emoji": "1️⃣5️⃣",
+    "memoni_script": "پندھرو",
+    "roman_memoni": "Pandhro",
+    "urdu_meaning": "پندرہ",
+    "english_meaning": "Fifteen",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_015",
+    "tags": [
+      "number",
+      "fifteen"
+    ],
+    "numeral": 15
+  },
+  {
+    "id": "numbers_016",
+    "category": "numbers",
+    "emoji": "2️⃣0️⃣",
+    "memoni_script": "ویہ",
+    "roman_memoni": "Veeh",
+    "urdu_meaning": "بیس",
+    "english_meaning": "Twenty",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_016",
+    "tags": [
+      "number",
+      "twenty"
+    ],
+    "numeral": 20
+  },
+  {
+    "id": "numbers_017",
+    "category": "numbers",
+    "emoji": "2️⃣5️⃣",
+    "memoni_script": "پنجھی",
+    "roman_memoni": "Pinjhi",
+    "urdu_meaning": "پچیس",
+    "english_meaning": "Twenty-five",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_017",
+    "tags": [
+      "number",
+      "twenty-five"
+    ],
+    "numeral": 25
+  },
+  {
+    "id": "numbers_018",
+    "category": "numbers",
+    "emoji": "5️⃣0️⃣",
+    "memoni_script": "پنجھا",
+    "roman_memoni": "Pinjha",
+    "urdu_meaning": "پچاس",
+    "english_meaning": "Fifty",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_018",
+    "tags": [
+      "number",
+      "fifty"
+    ],
+    "numeral": 50
+  },
+  {
+    "id": "numbers_019",
+    "category": "numbers",
+    "emoji": "💯",
+    "memoni_script": "سو",
+    "roman_memoni": "So",
+    "urdu_meaning": "سو",
+    "english_meaning": "One Hundred",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_019",
+    "tags": [
+      "number",
+      "hundred"
+    ],
+    "numeral": 100
+  },
+  {
+    "id": "numbers_020",
+    "category": "numbers",
+    "emoji": "🔢",
+    "memoni_script": "هزار",
+    "roman_memoni": "Hazaar",
+    "urdu_meaning": "ہزار",
+    "english_meaning": "One Thousand",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "numbers_020",
+    "tags": [
+      "cardinal"
+    ],
+    "numeral": 1000
+  },
+  {
+    "id": "colours_001",
+    "category": "colours",
+    "emoji": "🟢",
+    "memoni_script": "ہارو",
+    "roman_memoni": "Haro",
+    "urdu_meaning": "سبز",
+    "english_meaning": "Green",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_001",
+    "tags": [
+      "green",
+      "primary-colour"
+    ]
+  },
+  {
+    "id": "colours_002",
+    "category": "colours",
+    "emoji": "🔴",
+    "memoni_script": "لال",
+    "roman_memoni": "Lal",
+    "urdu_meaning": "لال",
+    "english_meaning": "Red",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_002",
+    "tags": [
+      "red",
+      "primary-colour"
+    ]
+  },
+  {
+    "id": "colours_003",
+    "category": "colours",
+    "emoji": "🔵",
+    "memoni_script": "نیلو",
+    "roman_memoni": "Neelo",
+    "urdu_meaning": "نیلا",
+    "english_meaning": "Blue",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_003",
+    "tags": [
+      "blue",
+      "primary-colour"
+    ]
+  },
+  {
+    "id": "colours_004",
+    "category": "colours",
+    "emoji": "🟡",
+    "memoni_script": "پیرو",
+    "roman_memoni": "Peero",
+    "urdu_meaning": "پیلا",
+    "english_meaning": "Yellow",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_004",
+    "tags": [
+      "yellow",
+      "primary-colour"
+    ]
+  },
+  {
+    "id": "colours_005",
+    "category": "colours",
+    "emoji": "⚪",
+    "memoni_script": "سفید",
+    "roman_memoni": "Safaid",
+    "urdu_meaning": "سفید",
+    "english_meaning": "White",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_005",
+    "tags": [
+      "white",
+      "basic-colour"
+    ]
+  },
+  {
+    "id": "colours_006",
+    "category": "colours",
+    "emoji": "⚫",
+    "memoni_script": "کارو",
+    "roman_memoni": "Karo",
+    "urdu_meaning": "کالا",
+    "english_meaning": "Black",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_006",
+    "tags": [
+      "black",
+      "basic-colour"
+    ]
+  },
+  {
+    "id": "colours_007",
+    "category": "colours",
+    "emoji": "🟠",
+    "memoni_script": "نارنگی",
+    "roman_memoni": "Narangi",
+    "urdu_meaning": "نارنجی",
+    "english_meaning": "Orange",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_007",
+    "tags": [
+      "orange",
+      "secondary-colour"
+    ]
+  },
+  {
+    "id": "colours_008",
+    "category": "colours",
+    "emoji": "🟣",
+    "memoni_script": "بینگنی",
+    "roman_memoni": "Baingani",
+    "urdu_meaning": "جامنی",
+    "english_meaning": "Purple",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_008",
+    "tags": [
+      "purple",
+      "secondary-colour"
+    ]
+  },
+  {
+    "id": "colours_009",
+    "category": "colours",
+    "emoji": "🟤",
+    "memoni_script": "",
+    "roman_memoni": "",
+    "urdu_meaning": "بھورا",
+    "english_meaning": "Brown",
+    "difficulty": "beginner",
+    "manual_review": true,
+    "audio_key": "colours_009",
+    "tags": [
+      "brown",
+      "secondary-colour"
+    ]
+  },
+  {
+    "id": "colours_010",
+    "category": "colours",
+    "emoji": "🩷",
+    "memoni_script": "گلابی",
+    "roman_memoni": "Gulaabi",
+    "urdu_meaning": "گلابی",
+    "english_meaning": "Pink",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_010",
+    "tags": [
+      "pink",
+      "secondary-colour"
+    ]
+  },
+  {
+    "id": "colours_011",
+    "category": "colours",
+    "emoji": "🩵",
+    "memoni_script": "آسمانی",
+    "roman_memoni": "Asmaani",
+    "urdu_meaning": "آسمانی",
+    "english_meaning": "Sky Blue",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_011",
+    "tags": [
+      "sky-blue",
+      "shade"
+    ]
+  },
+  {
+    "id": "colours_012",
+    "category": "colours",
+    "emoji": "🩶",
+    "memoni_script": "",
+    "roman_memoni": "",
+    "urdu_meaning": "سرمئی",
+    "english_meaning": "Grey",
+    "difficulty": "beginner",
+    "manual_review": true,
+    "audio_key": "colours_012",
+    "tags": [
+      "grey",
+      "neutral-colour"
+    ]
+  },
+  {
+    "id": "colours_013",
+    "category": "colours",
+    "emoji": "🟨",
+    "memoni_script": "",
+    "roman_memoni": "",
+    "urdu_meaning": "سنہری",
+    "english_meaning": "Golden",
+    "difficulty": "beginner",
+    "manual_review": true,
+    "audio_key": "colours_013",
+    "tags": [
+      "golden",
+      "metallic-colour"
+    ]
+  },
+  {
+    "id": "colours_014",
+    "category": "colours",
+    "emoji": "🌺",
+    "memoni_script": "",
+    "roman_memoni": "",
+    "urdu_meaning": "گہرا گلابی",
+    "english_meaning": "Deep Pink",
+    "difficulty": "beginner",
+    "manual_review": true,
+    "audio_key": "colours_014",
+    "tags": [
+      "deep-pink",
+      "shade"
+    ]
+  },
+  {
+    "id": "colours_015",
+    "category": "colours",
+    "emoji": "🌿",
+    "memoni_script": "مہندی کا رنگ",
+    "roman_memoni": "Mehndi ka Rang",
+    "urdu_meaning": "مہندی کا رنگ",
+    "english_meaning": "Mehndi Colour",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_015",
+    "tags": [
+      "mehndi",
+      "shade"
+    ]
+  },
+  {
+    "id": "colours_016",
+    "category": "colours",
+    "emoji": "🎨",
+    "memoni_script": "رنگ",
+    "roman_memoni": "Rang",
+    "urdu_meaning": "رنگ",
+    "english_meaning": "Colour",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_016",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "colours_017",
+    "category": "colours",
+    "emoji": "🌑",
+    "memoni_script": "گڑھا رنگ",
+    "roman_memoni": "Garha Rang",
+    "urdu_meaning": "گہرا رنگ",
+    "english_meaning": "Dark Colour",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_017",
+    "tags": [
+      "dark",
+      "shade"
+    ]
+  },
+  {
+    "id": "colours_018",
+    "category": "colours",
+    "emoji": "✨",
+    "memoni_script": "کھلیلو رنگ",
+    "roman_memoni": "Khilelo Rang",
+    "urdu_meaning": "شوخ رنگ",
+    "english_meaning": "Bright Colour",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_018",
+    "tags": [
+      "bright",
+      "shade"
+    ]
+  },
+  {
+    "id": "colours_019",
+    "category": "colours",
+    "emoji": "🎭",
+    "memoni_script": "بو رنگ جو",
+    "roman_memoni": "Bo Rang Jo",
+    "urdu_meaning": "دو رنگا",
+    "english_meaning": "Two-Coloured",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_019",
+    "tags": [
+      "two-coloured",
+      "pattern"
+    ]
+  },
+  {
+    "id": "colours_020",
+    "category": "colours",
+    "emoji": "🌫️",
+    "memoni_script": "ہلکا رنگ",
+    "roman_memoni": "Halka Rang",
+    "urdu_meaning": "ہلکا رنگ",
+    "english_meaning": "Light Shade",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "colours_020",
+    "tags": [
+      "light",
+      "shade"
+    ]
+  },
+  {
+    "id": "body_001",
+    "category": "body_parts",
+    "emoji": "💇",
+    "memoni_script": "ماتھو",
+    "roman_memoni": "Matho",
+    "urdu_meaning": "سر",
+    "english_meaning": "Head",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_001",
+    "tags": [
+      "head",
+      "upper-body"
+    ]
+  },
+  {
+    "id": "body_002",
+    "category": "body_parts",
+    "emoji": "🦱",
+    "memoni_script": "وار",
+    "roman_memoni": "Vaar",
+    "urdu_meaning": "بال",
+    "english_meaning": "Hair",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_002",
+    "tags": [
+      "hair",
+      "upper-body"
+    ]
+  },
+  {
+    "id": "body_003",
+    "category": "body_parts",
+    "emoji": "👁️",
+    "memoni_script": "آنکھیوں",
+    "roman_memoni": "Ankhion",
+    "urdu_meaning": "آنکھیں",
+    "english_meaning": "Eyes",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_003",
+    "tags": [
+      "eyes",
+      "face"
+    ]
+  },
+  {
+    "id": "body_004",
+    "category": "body_parts",
+    "emoji": "👂",
+    "memoni_script": "کن",
+    "roman_memoni": "Kun",
+    "urdu_meaning": "کان",
+    "english_meaning": "Ear",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_004",
+    "tags": [
+      "ear",
+      "face"
+    ]
+  },
+  {
+    "id": "body_005",
+    "category": "body_parts",
+    "emoji": "👃",
+    "memoni_script": "نک",
+    "roman_memoni": "Nuk",
+    "urdu_meaning": "ناک",
+    "english_meaning": "Nose",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_005",
+    "tags": [
+      "nose",
+      "face"
+    ]
+  },
+  {
+    "id": "body_006",
+    "category": "body_parts",
+    "emoji": "👄",
+    "memoni_script": "موُ",
+    "roman_memoni": "Muu",
+    "urdu_meaning": "منہ",
+    "english_meaning": "Mouth",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_006",
+    "tags": [
+      "mouth",
+      "face"
+    ]
+  },
+  {
+    "id": "body_007",
+    "category": "body_parts",
+    "emoji": "🦷",
+    "memoni_script": "دند",
+    "roman_memoni": "Dund",
+    "urdu_meaning": "دانت",
+    "english_meaning": "Teeth",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_007",
+    "tags": [
+      "teeth",
+      "face"
+    ]
+  },
+  {
+    "id": "body_008",
+    "category": "body_parts",
+    "emoji": "🫀",
+    "memoni_script": "دل",
+    "roman_memoni": "Dil",
+    "urdu_meaning": "دل",
+    "english_meaning": "Heart",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_008",
+    "tags": [
+      "heart",
+      "internal"
+    ]
+  },
+  {
+    "id": "body_009",
+    "category": "body_parts",
+    "emoji": "🤚",
+    "memoni_script": "ہتھ",
+    "roman_memoni": "Huth",
+    "urdu_meaning": "ہاتھ",
+    "english_meaning": "Hand",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_009",
+    "tags": [
+      "hand",
+      "limbs"
+    ]
+  },
+  {
+    "id": "body_010",
+    "category": "body_parts",
+    "emoji": "🦶",
+    "memoni_script": "پگھ",
+    "roman_memoni": "Pug",
+    "urdu_meaning": "پاؤں",
+    "english_meaning": "Foot",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_010",
+    "tags": [
+      "foot",
+      "limbs"
+    ]
+  },
+  {
+    "id": "body_011",
+    "category": "body_parts",
+    "emoji": "💪",
+    "memoni_script": "باہ",
+    "roman_memoni": "Baah",
+    "urdu_meaning": "بازو",
+    "english_meaning": "Arm",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_011",
+    "tags": [
+      "arm",
+      "limbs"
+    ]
+  },
+  {
+    "id": "body_012",
+    "category": "body_parts",
+    "emoji": "🦵",
+    "memoni_script": "ٹنگ",
+    "roman_memoni": "Tung",
+    "urdu_meaning": "ٹانگ",
+    "english_meaning": "Leg",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_012",
+    "tags": [
+      "leg",
+      "limbs"
+    ]
+  },
+  {
+    "id": "body_013",
+    "category": "body_parts",
+    "emoji": "🫁",
+    "memoni_script": "چاٹی",
+    "roman_memoni": "Chati",
+    "urdu_meaning": "سینہ / چھاتی",
+    "english_meaning": "Chest",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_013",
+    "tags": [
+      "chest",
+      "torso"
+    ]
+  },
+  {
+    "id": "body_014",
+    "category": "body_parts",
+    "emoji": "🔙",
+    "memoni_script": "پُٹھ",
+    "roman_memoni": "Puth",
+    "urdu_meaning": "کمر",
+    "english_meaning": "Waist",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_014",
+    "tags": [
+      "waist",
+      "torso"
+    ]
+  },
+  {
+    "id": "body_015",
+    "category": "body_parts",
+    "emoji": "🫃",
+    "memoni_script": "پیٹ",
+    "roman_memoni": "Pait",
+    "urdu_meaning": "پیٹ",
+    "english_meaning": "Stomach",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_015",
+    "tags": [
+      "stomach",
+      "torso"
+    ]
+  },
+  {
+    "id": "body_016",
+    "category": "body_parts",
+    "emoji": "🤜",
+    "memoni_script": "مُٹھی",
+    "roman_memoni": "Muthi",
+    "urdu_meaning": "مٹھی",
+    "english_meaning": "Fist",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_016",
+    "tags": [
+      "fist",
+      "hand"
+    ]
+  },
+  {
+    "id": "body_017",
+    "category": "body_parts",
+    "emoji": "🦴",
+    "memoni_script": "ہڈھی",
+    "roman_memoni": "Hadhi",
+    "urdu_meaning": "ہڈی",
+    "english_meaning": "Bone",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_017",
+    "tags": [
+      "bone",
+      "internal"
+    ]
+  },
+  {
+    "id": "body_018",
+    "category": "body_parts",
+    "emoji": "🩸",
+    "memoni_script": "خون",
+    "roman_memoni": "Khoon",
+    "urdu_meaning": "خون",
+    "english_meaning": "Blood",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_018",
+    "tags": [
+      "blood",
+      "internal"
+    ]
+  },
+  {
+    "id": "body_019",
+    "category": "body_parts",
+    "emoji": "🌐",
+    "memoni_script": "کندھا",
+    "roman_memoni": "Kandha",
+    "urdu_meaning": "کندھا",
+    "english_meaning": "Shoulder",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_019",
+    "tags": [
+      "shoulder",
+      "upper-body"
+    ]
+  },
+  {
+    "id": "body_020",
+    "category": "body_parts",
+    "emoji": "🤏",
+    "memoni_script": "انگری",
+    "roman_memoni": "Angri",
+    "urdu_meaning": "انگلی",
+    "english_meaning": "Finger",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "body_020",
+    "tags": [
+      "finger",
+      "hand"
+    ]
+  },
+  {
+    "id": "daily_001",
+    "category": "daily_phrases",
+    "emoji": "💬",
+    "memoni_script": "اَیں جو نالو کرو اے",
+    "roman_memoni": "Ayen jo naam kro aye",
+    "urdu_meaning": "آپ کا نام کیا ہے؟",
+    "english_meaning": "What is your name?",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_001",
+    "tags": [
+      "introduction",
+      "question"
+    ]
+  },
+  {
+    "id": "daily_002",
+    "category": "daily_phrases",
+    "emoji": "🪪",
+    "memoni_script": "منجو نالو مومی اے",
+    "roman_memoni": "Minjo naam Momi aye",
+    "urdu_meaning": "میرا نام مومی ہے",
+    "english_meaning": "My name is Momi",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_002",
+    "tags": [
+      "introduction",
+      "answer"
+    ]
+  },
+  {
+    "id": "daily_003",
+    "category": "daily_phrases",
+    "emoji": "📍",
+    "memoni_script": "اَیں کدھا سَ آویا آیو",
+    "roman_memoni": "Ayen kidha sy aviya ayo",
+    "urdu_meaning": "آپ کہاں سے آئے ہیں؟",
+    "english_meaning": "Where are you from?",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_003",
+    "tags": [
+      "introduction",
+      "question"
+    ]
+  },
+  {
+    "id": "daily_004",
+    "category": "daily_phrases",
+    "emoji": "🏙️",
+    "memoni_script": "آؤں کراچی سَ یاں",
+    "roman_memoni": "Aoun Karachi sy yaan",
+    "urdu_meaning": "میں کراچی سے ہوں",
+    "english_meaning": "I am from Karachi",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_004",
+    "tags": [
+      "introduction",
+      "answer"
+    ]
+  },
+  {
+    "id": "daily_005",
+    "category": "daily_phrases",
+    "emoji": "💰",
+    "memoni_script": "اِنجا کرو بھاؤ",
+    "roman_memoni": "Inja kro bhao",
+    "urdu_meaning": "اس کی قیمت کتنی ہے؟",
+    "english_meaning": "How much is this?",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_005",
+    "tags": [
+      "shopping",
+      "question"
+    ]
+  },
+  {
+    "id": "daily_006",
+    "category": "daily_phrases",
+    "emoji": "🍽️",
+    "memoni_script": "مِکی بھوک لگی اے",
+    "roman_memoni": "Miky bhuk lagi aye",
+    "urdu_meaning": "مجھے بھوک لگی ہے",
+    "english_meaning": "I am hungry",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_006",
+    "tags": [
+      "needs",
+      "food"
+    ]
+  },
+  {
+    "id": "daily_007",
+    "category": "daily_phrases",
+    "emoji": "🥤",
+    "memoni_script": "مِکی پیاس لگی اے",
+    "roman_memoni": "Miky pyas lagi aye",
+    "urdu_meaning": "مجھے پیاس لگی ہے",
+    "english_meaning": "I am thirsty",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_007",
+    "tags": [
+      "needs",
+      "drink"
+    ]
+  },
+  {
+    "id": "daily_008",
+    "category": "daily_phrases",
+    "emoji": "❤️",
+    "memoni_script": "آؤں اَیں سَ محبت کرن تھِن",
+    "roman_memoni": "Aoun ayin sy muhabbat karan thin",
+    "urdu_meaning": "میں تم سے محبت کرتی ہوں",
+    "english_meaning": "I love you",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_008",
+    "tags": [
+      "emotions",
+      "relationships"
+    ]
+  },
+  {
+    "id": "daily_009",
+    "category": "daily_phrases",
+    "emoji": "😴",
+    "memoni_script": "مِکی نیندار اچی دی اے",
+    "roman_memoni": "Miky nenndar achi di aye",
+    "urdu_meaning": "مجھے نیند آ رہی ہے",
+    "english_meaning": "I am sleepy",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_009",
+    "tags": [
+      "needs",
+      "daily"
+    ]
+  },
+  {
+    "id": "daily_010",
+    "category": "daily_phrases",
+    "emoji": "🏃",
+    "memoni_script": "آؤں وِنا تھی",
+    "roman_memoni": "Aoun vina thi",
+    "urdu_meaning": "میں جا رہی ہوں",
+    "english_meaning": "I am going",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_010",
+    "tags": [
+      "movement",
+      "daily"
+    ]
+  },
+  {
+    "id": "daily_011",
+    "category": "daily_phrases",
+    "emoji": "🗣️",
+    "memoni_script": "آؤں نئیں سمجھیوس",
+    "roman_memoni": "Aoun nai samjhios",
+    "urdu_meaning": "میں نہیں سمجھی",
+    "english_meaning": "I don't understand",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_011",
+    "tags": [
+      "communication",
+      "learning"
+    ]
+  },
+  {
+    "id": "daily_012",
+    "category": "daily_phrases",
+    "emoji": "🔄",
+    "memoni_script": "پچھو چو",
+    "roman_memoni": "Pacho cho",
+    "urdu_meaning": "دوبارہ کہو",
+    "english_meaning": "Say it again",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_012",
+    "tags": [
+      "communication",
+      "learning"
+    ]
+  },
+  {
+    "id": "daily_013",
+    "category": "daily_phrases",
+    "emoji": "⏰",
+    "memoni_script": "کرو ٹائم تھی ریو اے",
+    "roman_memoni": "Kro time thi rio aye",
+    "urdu_meaning": "کیا وقت ہو رہا ہے؟",
+    "english_meaning": "What time is it?",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_013",
+    "tags": [
+      "time",
+      "question"
+    ]
+  },
+  {
+    "id": "daily_014",
+    "category": "daily_phrases",
+    "emoji": "🤔",
+    "memoni_script": "کرو کرا",
+    "roman_memoni": "Kro kara",
+    "urdu_meaning": "کیا کروں؟",
+    "english_meaning": "What should I do?",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_014",
+    "tags": [
+      "question",
+      "daily"
+    ]
+  },
+  {
+    "id": "daily_015",
+    "category": "daily_phrases",
+    "emoji": "🏥",
+    "memoni_script": "مِکی بو سور تھیے تھو",
+    "roman_memoni": "Miky bho soor thiye tho",
+    "urdu_meaning": "مجھے بہت درد ہو رہا ہے",
+    "english_meaning": "I am in a lot of pain",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_015",
+    "tags": [
+      "health",
+      "needs"
+    ]
+  },
+  {
+    "id": "daily_016",
+    "category": "daily_phrases",
+    "emoji": "📞",
+    "memoni_script": "تھوڑی وار رکو",
+    "roman_memoni": "Thori war ruko",
+    "urdu_meaning": "تھوڑی دیر رکو",
+    "english_meaning": "Wait for a while",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_016",
+    "tags": [
+      "communication",
+      "common"
+    ]
+  },
+  {
+    "id": "daily_017",
+    "category": "daily_phrases",
+    "emoji": "🆘",
+    "memoni_script": "منجی مدد کرو",
+    "roman_memoni": "Minji madad karo",
+    "urdu_meaning": "میری مدد کرو",
+    "english_meaning": "Help me",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_017",
+    "tags": [
+      "emergency",
+      "common"
+    ]
+  },
+  {
+    "id": "daily_018",
+    "category": "daily_phrases",
+    "emoji": "☀️",
+    "memoni_script": "اڄ کی وارو دی اے",
+    "roman_memoni": "Aj ki varo di aye",
+    "urdu_meaning": "آج کیا دن ہے؟",
+    "english_meaning": "What day is today?",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_018",
+    "tags": [
+      "time",
+      "question"
+    ]
+  },
+  {
+    "id": "daily_019",
+    "category": "daily_phrases",
+    "emoji": "🏠",
+    "memoni_script": "اَیں کدھا ریو تھا",
+    "roman_memoni": "Ayien kida rio tha",
+    "urdu_meaning": "آپ کہاں رہتے ہو؟",
+    "english_meaning": "Where do you live?",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_019",
+    "tags": [
+      "introduction",
+      "question"
+    ]
+  },
+  {
+    "id": "daily_020",
+    "category": "daily_phrases",
+    "emoji": "🙌",
+    "memoni_script": "کوئی گل نہ",
+    "roman_memoni": "Koi ghal na",
+    "urdu_meaning": "کوئی بات نہیں",
+    "english_meaning": "It's okay / No problem",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "daily_020",
+    "tags": [
+      "response",
+      "casual"
+    ]
+  },
+  {
+    "id": "emotions_001",
+    "category": "emotions",
+    "emoji": "😊",
+    "memoni_script": "خوش",
+    "roman_memoni": "Khush",
+    "urdu_meaning": "خوش",
+    "english_meaning": "Happy",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_001",
+    "tags": [
+      "positive"
+    ]
+  },
+  {
+    "id": "emotions_002",
+    "category": "emotions",
+    "emoji": "😢",
+    "memoni_script": "رونو",
+    "roman_memoni": "Rono",
+    "urdu_meaning": "رونا / اداس",
+    "english_meaning": "Sad / Crying",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_002",
+    "tags": [
+      "negative"
+    ]
+  },
+  {
+    "id": "emotions_003",
+    "category": "emotions",
+    "emoji": "😡",
+    "memoni_script": "ناراض",
+    "roman_memoni": "Naraaz",
+    "urdu_meaning": "ناراض",
+    "english_meaning": "Angry",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_003",
+    "tags": [
+      "negative"
+    ]
+  },
+  {
+    "id": "emotions_004",
+    "category": "emotions",
+    "emoji": "😨",
+    "memoni_script": "ڊڄل",
+    "roman_memoni": "Dajal",
+    "urdu_meaning": "ڈرا ہوا",
+    "english_meaning": "Afraid / Scared",
+    "difficulty": "intermediate",
+    "manual_review": true,
+    "audio_key": "emotions_004",
+    "tags": [
+      "negative"
+    ]
+  },
+  {
+    "id": "emotions_005",
+    "category": "emotions",
+    "emoji": "😲",
+    "memoni_script": "حيران",
+    "roman_memoni": "Hairaan",
+    "urdu_meaning": "حیران",
+    "english_meaning": "Surprised / Amazed",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_005",
+    "tags": [
+      "neutral"
+    ]
+  },
+  {
+    "id": "emotions_006",
+    "category": "emotions",
+    "emoji": "😔",
+    "memoni_script": "دکي",
+    "roman_memoni": "Dukhi",
+    "urdu_meaning": "دکھی",
+    "english_meaning": "Sad / Grieved",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_006",
+    "tags": [
+      "negative"
+    ]
+  },
+  {
+    "id": "emotions_007",
+    "category": "emotions",
+    "emoji": "😭",
+    "memoni_script": "غم",
+    "roman_memoni": "Gham",
+    "urdu_meaning": "غم",
+    "english_meaning": "Grief / Sorrow",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_007",
+    "tags": [
+      "negative"
+    ]
+  },
+  {
+    "id": "emotions_008",
+    "category": "emotions",
+    "emoji": "😤",
+    "memoni_script": "پريشان",
+    "roman_memoni": "Pareshan",
+    "urdu_meaning": "پریشان",
+    "english_meaning": "Worried / Troubled",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_008",
+    "tags": [
+      "negative"
+    ]
+  },
+  {
+    "id": "emotions_009",
+    "category": "emotions",
+    "emoji": "💪",
+    "memoni_script": "همت",
+    "roman_memoni": "Himmat",
+    "urdu_meaning": "ہمت",
+    "english_meaning": "Courage / Determination",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "emotions_009",
+    "tags": [
+      "positive",
+      "character"
+    ]
+  },
+  {
+    "id": "emotions_010",
+    "category": "emotions",
+    "emoji": "🤩",
+    "memoni_script": "محبت",
+    "roman_memoni": "Mohabbat",
+    "urdu_meaning": "محبت",
+    "english_meaning": "Love",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_010",
+    "tags": [
+      "positive"
+    ]
+  },
+  {
+    "id": "emotions_011",
+    "category": "emotions",
+    "emoji": "😴",
+    "memoni_script": "ٿاڪل",
+    "roman_memoni": "Thaaklo",
+    "urdu_meaning": "تھکا ہوا",
+    "english_meaning": "Tired / Exhausted",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_011",
+    "tags": [
+      "physical-state"
+    ]
+  },
+  {
+    "id": "emotions_012",
+    "category": "emotions",
+    "emoji": "😊",
+    "memoni_script": "صبر",
+    "roman_memoni": "Sabar",
+    "urdu_meaning": "صبر",
+    "english_meaning": "Patience",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_012",
+    "tags": [
+      "virtue"
+    ]
+  },
+  {
+    "id": "emotions_013",
+    "category": "emotions",
+    "emoji": "🥲",
+    "memoni_script": "حسد",
+    "roman_memoni": "Hasad",
+    "urdu_meaning": "حسد / جلن",
+    "english_meaning": "Envy / Jealousy",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "emotions_013",
+    "tags": [
+      "negative"
+    ]
+  },
+  {
+    "id": "emotions_014",
+    "category": "emotions",
+    "emoji": "😳",
+    "memoni_script": "شرم",
+    "roman_memoni": "Sharam",
+    "urdu_meaning": "شرم",
+    "english_meaning": "Shame / Embarrassment",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_014",
+    "tags": [
+      "social-emotion"
+    ]
+  },
+  {
+    "id": "emotions_015",
+    "category": "emotions",
+    "emoji": "🤗",
+    "memoni_script": "خوشي",
+    "roman_memoni": "Khushi",
+    "urdu_meaning": "خوشی",
+    "english_meaning": "Happiness / Joy",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_015",
+    "tags": [
+      "positive"
+    ]
+  },
+  {
+    "id": "emotions_016",
+    "category": "emotions",
+    "emoji": "😌",
+    "memoni_script": "اطمينان",
+    "roman_memoni": "Itminaan",
+    "urdu_meaning": "اطمینان",
+    "english_meaning": "Peace of mind / Contentment",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "emotions_016",
+    "tags": [
+      "positive",
+      "spiritual"
+    ]
+  },
+  {
+    "id": "emotions_017",
+    "category": "emotions",
+    "emoji": "😐",
+    "memoni_script": "اڪيلو",
+    "roman_memoni": "Akeelo",
+    "urdu_meaning": "اکیلا",
+    "english_meaning": "Alone / Lonely",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_017",
+    "tags": [
+      "social-state"
+    ]
+  },
+  {
+    "id": "emotions_018",
+    "category": "emotions",
+    "emoji": "🥰",
+    "memoni_script": "پيار",
+    "roman_memoni": "Pyaar",
+    "urdu_meaning": "پیار",
+    "english_meaning": "Love / Affection",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "emotions_018",
+    "tags": [
+      "positive"
+    ]
+  },
+  {
+    "id": "emotions_019",
+    "category": "emotions",
+    "emoji": "😓",
+    "memoni_script": "تڪليف",
+    "roman_memoni": "Takleef",
+    "urdu_meaning": "تکلیف",
+    "english_meaning": "Discomfort / Trouble",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "emotions_019",
+    "tags": [
+      "negative"
+    ]
+  },
+  {
+    "id": "emotions_020",
+    "category": "emotions",
+    "emoji": "🙈",
+    "memoni_script": "لڄ",
+    "roman_memoni": "Laj",
+    "urdu_meaning": "لاج / حیا",
+    "english_meaning": "Modesty / Shyness",
+    "difficulty": "intermediate",
+    "manual_review": true,
+    "audio_key": "emotions_020",
+    "tags": [
+      "social-emotion",
+      "virtue"
+    ]
+  },
+  {
+    "id": "shopping_001",
+    "category": "shopping",
+    "emoji": "🛒",
+    "memoni_script": "دڪان",
+    "roman_memoni": "Dukaan",
+    "urdu_meaning": "دکان",
+    "english_meaning": "Shop / Store",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_001",
+    "tags": [
+      "place",
+      "commerce"
+    ]
+  },
+  {
+    "id": "shopping_002",
+    "category": "shopping",
+    "emoji": "💰",
+    "memoni_script": "روپو / پئسو",
+    "roman_memoni": "Rupo / Paiso",
+    "urdu_meaning": "روپیہ / پیسہ",
+    "english_meaning": "Rupee / Money",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_002",
+    "tags": [
+      "currency"
+    ]
+  },
+  {
+    "id": "shopping_003",
+    "category": "shopping",
+    "emoji": "🏷️",
+    "memoni_script": "قيمت",
+    "roman_memoni": "Qeemat",
+    "urdu_meaning": "قیمت",
+    "english_meaning": "Price",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_003",
+    "tags": [
+      "commerce"
+    ]
+  },
+  {
+    "id": "shopping_004",
+    "category": "shopping",
+    "emoji": "🤝",
+    "memoni_script": "سودو",
+    "roman_memoni": "Soodo",
+    "urdu_meaning": "سودا",
+    "english_meaning": "Deal / Trade / Purchase",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_004",
+    "tags": [
+      "commerce",
+      "trade"
+    ]
+  },
+  {
+    "id": "shopping_005",
+    "category": "shopping",
+    "emoji": "🧾",
+    "memoni_script": "حساب",
+    "roman_memoni": "Hisaab",
+    "urdu_meaning": "حساب",
+    "english_meaning": "Account / Bill / Calculation",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_005",
+    "tags": [
+      "commerce",
+      "numbers"
+    ]
+  },
+  {
+    "id": "shopping_006",
+    "category": "shopping",
+    "emoji": "🎁",
+    "memoni_script": "تحفو",
+    "roman_memoni": "Tahfo",
+    "urdu_meaning": "تحفہ",
+    "english_meaning": "Gift",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_006",
+    "tags": [
+      "giving"
+    ]
+  },
+  {
+    "id": "shopping_007",
+    "category": "shopping",
+    "emoji": "💸",
+    "memoni_script": "ارزان",
+    "roman_memoni": "Arzaan",
+    "urdu_meaning": "سستا",
+    "english_meaning": "Cheap / Affordable",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_007",
+    "tags": [
+      "commerce",
+      "adjective"
+    ]
+  },
+  {
+    "id": "shopping_008",
+    "category": "shopping",
+    "emoji": "💎",
+    "memoni_script": "مهنگو",
+    "roman_memoni": "Mehango",
+    "urdu_meaning": "مہنگا",
+    "english_meaning": "Expensive",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_008",
+    "tags": [
+      "commerce",
+      "adjective"
+    ]
+  },
+  {
+    "id": "shopping_009",
+    "category": "shopping",
+    "emoji": "⚖️",
+    "memoni_script": "وزن",
+    "roman_memoni": "Wazan",
+    "urdu_meaning": "وزن",
+    "english_meaning": "Weight",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_009",
+    "tags": [
+      "measurement"
+    ]
+  },
+  {
+    "id": "shopping_010",
+    "category": "shopping",
+    "emoji": "🔄",
+    "memoni_script": "واپس ڪريو",
+    "roman_memoni": "Waapis kario",
+    "urdu_meaning": "واپس کرو",
+    "english_meaning": "Return / Give back",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "shopping_010",
+    "tags": [
+      "commerce"
+    ]
+  },
+  {
+    "id": "shopping_011",
+    "category": "shopping",
+    "emoji": "📦",
+    "memoni_script": "سامان",
+    "roman_memoni": "Saamaan",
+    "urdu_meaning": "سامان",
+    "english_meaning": "Goods / Items",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_011",
+    "tags": [
+      "commerce"
+    ]
+  },
+  {
+    "id": "shopping_012",
+    "category": "shopping",
+    "emoji": "🧵",
+    "memoni_script": "ڪپڙو",
+    "roman_memoni": "Kapdo",
+    "urdu_meaning": "کپڑا",
+    "english_meaning": "Cloth / Fabric",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_012",
+    "tags": [
+      "clothing"
+    ]
+  },
+  {
+    "id": "shopping_013",
+    "category": "shopping",
+    "emoji": "🏪",
+    "memoni_script": "بازار",
+    "roman_memoni": "Baazaar",
+    "urdu_meaning": "بازار",
+    "english_meaning": "Market / Bazaar",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_013",
+    "tags": [
+      "place",
+      "commerce"
+    ]
+  },
+  {
+    "id": "shopping_014",
+    "category": "shopping",
+    "emoji": "🏪",
+    "memoni_script": "وپار",
+    "roman_memoni": "Vepaar",
+    "urdu_meaning": "تجارت",
+    "english_meaning": "Trade / Business",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "shopping_014",
+    "tags": [
+      "commerce",
+      "profession"
+    ]
+  },
+  {
+    "id": "shopping_015",
+    "category": "shopping",
+    "emoji": "💵",
+    "memoni_script": "اُڌار",
+    "roman_memoni": "Udhaar",
+    "urdu_meaning": "ادھار / قرضہ",
+    "english_meaning": "Credit / Loan",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "shopping_015",
+    "tags": [
+      "commerce",
+      "finance"
+    ]
+  },
+  {
+    "id": "shopping_016",
+    "category": "shopping",
+    "emoji": "🤌",
+    "memoni_script": "کم قيمت ڪريو",
+    "roman_memoni": "Kum qeemat kario",
+    "urdu_meaning": "قیمت کم کرو",
+    "english_meaning": "Reduce the price / Bargain",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "shopping_016",
+    "tags": [
+      "commerce",
+      "negotiation"
+    ]
+  },
+  {
+    "id": "shopping_017",
+    "category": "shopping",
+    "emoji": "🛍️",
+    "memoni_script": "خريداري",
+    "roman_memoni": "Kharedaari",
+    "urdu_meaning": "خریداری",
+    "english_meaning": "Shopping",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_017",
+    "tags": [
+      "activity"
+    ]
+  },
+  {
+    "id": "shopping_018",
+    "category": "shopping",
+    "emoji": "🥇",
+    "memoni_script": "سٺو",
+    "roman_memoni": "Satho",
+    "urdu_meaning": "اچھا / بہترین",
+    "english_meaning": "Good / Best quality",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_018",
+    "tags": [
+      "adjective",
+      "quality"
+    ]
+  },
+  {
+    "id": "shopping_019",
+    "category": "shopping",
+    "emoji": "🥈",
+    "memoni_script": "خراب",
+    "roman_memoni": "Kharaab",
+    "urdu_meaning": "خراب",
+    "english_meaning": "Bad / Poor quality",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "shopping_019",
+    "tags": [
+      "adjective",
+      "quality"
+    ]
+  },
+  {
+    "id": "shopping_020",
+    "category": "shopping",
+    "emoji": "🤑",
+    "memoni_script": "دولت",
+    "roman_memoni": "Dolat",
+    "urdu_meaning": "دولت",
+    "english_meaning": "Wealth / Riches",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "shopping_020",
+    "tags": [
+      "finance"
+    ]
+  },
+  {
+    "id": "travel_001",
+    "category": "travel",
+    "emoji": "🚗",
+    "memoni_script": "گڈی",
+    "roman_memoni": "Gaddi",
+    "urdu_meaning": "گاڑی",
+    "english_meaning": "Car / Vehicle",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_001",
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "id": "travel_002",
+    "category": "travel",
+    "emoji": "🛣️",
+    "memoni_script": "رستو",
+    "roman_memoni": "Rasto",
+    "urdu_meaning": "راستہ",
+    "english_meaning": "Road",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_002",
+    "tags": [
+      "navigation"
+    ]
+  },
+  {
+    "id": "travel_003",
+    "category": "travel",
+    "emoji": "✈️",
+    "memoni_script": "ویون",
+    "roman_memoni": "Vevan",
+    "urdu_meaning": "جہاز",
+    "english_meaning": "Airplane",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_003",
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "id": "travel_004",
+    "category": "travel",
+    "emoji": "🏨",
+    "memoni_script": "ہوٹل",
+    "roman_memoni": "Hotel",
+    "urdu_meaning": "ہوٹل",
+    "english_meaning": "Hotel",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_004",
+    "tags": [
+      "accommodation"
+    ]
+  },
+  {
+    "id": "travel_005",
+    "category": "travel",
+    "emoji": "🏙️",
+    "memoni_script": "شہر",
+    "roman_memoni": "Shehar",
+    "urdu_meaning": "شہر",
+    "english_meaning": "City",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_005",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "id": "travel_006",
+    "category": "travel",
+    "emoji": "🏘️",
+    "memoni_script": "ڳوٺ / گام",
+    "roman_memoni": "Goth / Gaam",
+    "urdu_meaning": "گاؤں",
+    "english_meaning": "Village",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_006",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "id": "travel_007",
+    "category": "travel",
+    "emoji": "🧳",
+    "memoni_script": "مسافر",
+    "roman_memoni": "Musafir",
+    "urdu_meaning": "مسافر",
+    "english_meaning": "Traveller",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_007",
+    "tags": [
+      "person"
+    ]
+  },
+  {
+    "id": "travel_008",
+    "category": "travel",
+    "emoji": "📍",
+    "memoni_script": "ڪٿي",
+    "roman_memoni": "Kithe",
+    "urdu_meaning": "کہاں",
+    "english_meaning": "Where",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_008",
+    "tags": [
+      "question-word"
+    ]
+  },
+  {
+    "id": "travel_009",
+    "category": "travel",
+    "emoji": "🕌",
+    "memoni_script": "مسجد",
+    "roman_memoni": "Masjid",
+    "urdu_meaning": "مسجد",
+    "english_meaning": "Mosque",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_009",
+    "tags": [
+      "place",
+      "religious"
+    ]
+  },
+  {
+    "id": "travel_010",
+    "category": "travel",
+    "emoji": "🏥",
+    "memoni_script": "ہسپتال",
+    "roman_memoni": "Haspatal",
+    "urdu_meaning": "ہسپتال",
+    "english_meaning": "Hospital",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_010",
+    "tags": [
+      "place",
+      "health"
+    ]
+  },
+  {
+    "id": "travel_011",
+    "category": "travel",
+    "emoji": "⬆️",
+    "memoni_script": "ناک جی سیر مئی",
+    "roman_memoni": "Naak ji seer mai",
+    "urdu_meaning": "سیدھا",
+    "english_meaning": "Straight",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_011",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "id": "travel_012",
+    "category": "travel",
+    "emoji": "⬅️",
+    "memoni_script": "کاٻي",
+    "roman_memoni": "Kaabi",
+    "urdu_meaning": "بائیں",
+    "english_meaning": "Left (direction)",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_012",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "id": "travel_013",
+    "category": "travel",
+    "emoji": "➡️",
+    "memoni_script": "ساڄي",
+    "roman_memoni": "Saaji",
+    "urdu_meaning": "دائیں",
+    "english_meaning": "Right (direction)",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_013",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "id": "travel_014",
+    "category": "travel",
+    "emoji": "🚌",
+    "memoni_script": "بس",
+    "roman_memoni": "Bus",
+    "urdu_meaning": "بس",
+    "english_meaning": "Bus",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_014",
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "id": "travel_015",
+    "category": "travel",
+    "emoji": "🚂",
+    "memoni_script": "ریلوے",
+    "roman_memoni": "Railway",
+    "urdu_meaning": "ریلوے",
+    "english_meaning": "Railway",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_015",
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "id": "travel_016",
+    "category": "travel",
+    "emoji": "🗾",
+    "memoni_script": "ملک",
+    "roman_memoni": "Mulk",
+    "urdu_meaning": "ملک",
+    "english_meaning": "Country",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_016",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "id": "travel_017",
+    "category": "travel",
+    "emoji": "🌍",
+    "memoni_script": "دنیا",
+    "roman_memoni": "Dunya",
+    "urdu_meaning": "دنیا",
+    "english_meaning": "World",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_017",
+    "tags": [
+      "place",
+      "general"
+    ]
+  },
+  {
+    "id": "travel_018",
+    "category": "travel",
+    "emoji": "🏠",
+    "memoni_script": "گھری",
+    "roman_memoni": "Ghary",
+    "urdu_meaning": "گھر",
+    "english_meaning": "House / Home",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_018",
+    "tags": [
+      "place",
+      "everyday"
+    ]
+  },
+  {
+    "id": "travel_019",
+    "category": "travel",
+    "emoji": "🏞️",
+    "memoni_script": "وطن",
+    "roman_memoni": "Watan",
+    "urdu_meaning": "وطن",
+    "english_meaning": "Homeland",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_019",
+    "tags": [
+      "place",
+      "cultural"
+    ]
+  },
+  {
+    "id": "travel_020",
+    "category": "travel",
+    "emoji": "🗺️",
+    "memoni_script": "سفر",
+    "roman_memoni": "Safar",
+    "urdu_meaning": "سفر",
+    "english_meaning": "Journey / Travel",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "travel_020",
+    "tags": [
+      "activity"
+    ]
+  },
+  {
+    "id": "religious_001",
+    "category": "religious",
+    "emoji": "🤲",
+    "memoni_script": "دعا",
+    "roman_memoni": "Dua",
+    "urdu_meaning": "دعا",
+    "english_meaning": "Prayer / Supplication",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_001",
+    "tags": [
+      "worship"
+    ]
+  },
+  {
+    "id": "religious_002",
+    "category": "religious",
+    "emoji": "🕌",
+    "memoni_script": "نماز",
+    "roman_memoni": "Namaaz",
+    "urdu_meaning": "نماز",
+    "english_meaning": "Prayer (Salah)",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_002",
+    "tags": [
+      "worship"
+    ]
+  },
+  {
+    "id": "religious_003",
+    "category": "religious",
+    "emoji": "📖",
+    "memoni_script": "قرآن",
+    "roman_memoni": "Quran",
+    "urdu_meaning": "قرآن",
+    "english_meaning": "The Holy Quran",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_003",
+    "tags": [
+      "scripture"
+    ]
+  },
+  {
+    "id": "religious_004",
+    "category": "religious",
+    "emoji": "🌙",
+    "memoni_script": "رمضان",
+    "roman_memoni": "Ramzan",
+    "urdu_meaning": "رمضان",
+    "english_meaning": "Ramadan",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_004",
+    "tags": [
+      "holy-month"
+    ]
+  },
+  {
+    "id": "religious_005",
+    "category": "religious",
+    "emoji": "🌙",
+    "memoni_script": "روزو",
+    "roman_memoni": "Rozo",
+    "urdu_meaning": "روزہ",
+    "english_meaning": "Fast / Fasting",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_005",
+    "tags": [
+      "worship"
+    ]
+  },
+  {
+    "id": "religious_006",
+    "category": "religious",
+    "emoji": "🌅",
+    "memoni_script": "افطار",
+    "roman_memoni": "Iftaar",
+    "urdu_meaning": "افطار",
+    "english_meaning": "Breaking the fast (Iftar)",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_006",
+    "tags": [
+      "worship",
+      "food"
+    ]
+  },
+  {
+    "id": "religious_007",
+    "category": "religious",
+    "emoji": "🕋",
+    "memoni_script": "حج",
+    "roman_memoni": "Hajj",
+    "urdu_meaning": "حج",
+    "english_meaning": "Pilgrimage to Mecca",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_007",
+    "tags": [
+      "pillar-of-islam"
+    ]
+  },
+  {
+    "id": "religious_008",
+    "category": "religious",
+    "emoji": "🙏",
+    "memoni_script": "ذڪر",
+    "roman_memoni": "Zikr",
+    "urdu_meaning": "ذکر",
+    "english_meaning": "Remembrance of Allah",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "religious_008",
+    "tags": [
+      "worship"
+    ]
+  },
+  {
+    "id": "religious_009",
+    "category": "religious",
+    "emoji": "💚",
+    "memoni_script": "اللہ",
+    "roman_memoni": "Allah",
+    "urdu_meaning": "اللہ",
+    "english_meaning": "God (Allah)",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_009",
+    "tags": [
+      "divine"
+    ]
+  },
+  {
+    "id": "religious_010",
+    "category": "religious",
+    "emoji": "☮️",
+    "memoni_script": "امن",
+    "roman_memoni": "Aman",
+    "urdu_meaning": "امن",
+    "english_meaning": "Peace",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_010",
+    "tags": [
+      "value"
+    ]
+  },
+  {
+    "id": "religious_011",
+    "category": "religious",
+    "emoji": "📿",
+    "memoni_script": "ايمان",
+    "roman_memoni": "Eemaan",
+    "urdu_meaning": "ایمان",
+    "english_meaning": "Faith / Belief",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_011",
+    "tags": [
+      "pillar-of-islam"
+    ]
+  },
+  {
+    "id": "religious_012",
+    "category": "religious",
+    "emoji": "🤲",
+    "memoni_script": "صدقو",
+    "roman_memoni": "Sadqo",
+    "urdu_meaning": "صدقہ",
+    "english_meaning": "Charity / Alms",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "religious_012",
+    "tags": [
+      "worship",
+      "giving"
+    ]
+  },
+  {
+    "id": "religious_013",
+    "category": "religious",
+    "emoji": "🕌",
+    "memoni_script": "جماعت",
+    "roman_memoni": "Jamaat",
+    "urdu_meaning": "جماعت",
+    "english_meaning": "Congregation / Community gathering",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "religious_013",
+    "tags": [
+      "worship",
+      "community"
+    ]
+  },
+  {
+    "id": "religious_014",
+    "category": "religious",
+    "emoji": "🌟",
+    "memoni_script": "نبي",
+    "roman_memoni": "Nabi",
+    "urdu_meaning": "نبی",
+    "english_meaning": "Prophet",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_014",
+    "tags": [
+      "islamic-terms"
+    ]
+  },
+  {
+    "id": "religious_015",
+    "category": "religious",
+    "emoji": "🌙",
+    "memoni_script": "عيد",
+    "roman_memoni": "Eid",
+    "urdu_meaning": "عید",
+    "english_meaning": "Eid (Islamic celebration)",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_015",
+    "tags": [
+      "celebration"
+    ]
+  },
+  {
+    "id": "religious_016",
+    "category": "religious",
+    "emoji": "🪦",
+    "memoni_script": "جنازو",
+    "roman_memoni": "Janaazo",
+    "urdu_meaning": "جنازہ",
+    "english_meaning": "Funeral bier / Funeral prayer",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "religious_016",
+    "tags": [
+      "death-rites"
+    ]
+  },
+  {
+    "id": "religious_017",
+    "category": "religious",
+    "emoji": "✨",
+    "memoni_script": "برڪت",
+    "roman_memoni": "Barkat",
+    "urdu_meaning": "برکت",
+    "english_meaning": "Blessing / Abundance",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_017",
+    "tags": [
+      "blessing"
+    ]
+  },
+  {
+    "id": "religious_018",
+    "category": "religious",
+    "emoji": "🌙",
+    "memoni_script": "قبلو",
+    "roman_memoni": "Qablo",
+    "urdu_meaning": "قبول",
+    "english_meaning": "Accepted (by Allah)",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "religious_018",
+    "tags": [
+      "worship",
+      "dua"
+    ]
+  },
+  {
+    "id": "religious_019",
+    "category": "religious",
+    "emoji": "🤍",
+    "memoni_script": "توبه",
+    "roman_memoni": "Toba",
+    "urdu_meaning": "توبہ",
+    "english_meaning": "Repentance",
+    "difficulty": "intermediate",
+    "manual_review": false,
+    "audio_key": "religious_019",
+    "tags": [
+      "worship",
+      "spiritual"
+    ]
+  },
+  {
+    "id": "religious_020",
+    "category": "religious",
+    "emoji": "🌿",
+    "memoni_script": "بسم الله",
+    "roman_memoni": "Bismillah",
+    "urdu_meaning": "بسم اللہ",
+    "english_meaning": "In the name of Allah",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "religious_020",
+    "tags": [
+      "divine",
+      "common-phrase"
+    ]
+  },
+  {
+    "id": "food_021",
+    "category": "food",
+    "emoji": "🍛",
+    "memoni_script": "سائیڑو",
+    "roman_memoni": "Sairo",
+    "urdu_meaning": "سالن",
+    "english_meaning": "Curry",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_021",
+    "tags": [
+      "curry",
+      "food",
+      "dish"
+    ]
+  },
+  {
+    "id": "food_022",
+    "category": "food",
+    "emoji": "🥭",
+    "memoni_script": "امبا",
+    "roman_memoni": "Amba",
+    "urdu_meaning": "آم",
+    "english_meaning": "Mango",
+    "difficulty": "beginner",
+    "manual_review": false,
+    "audio_key": "food_022",
+    "tags": [
+      "mango",
+      "fruit",
+      "food"
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn(){ return request.auth != null; }
+    function owner(uid){ return signedIn() && request.auth.uid == uid; }
+    function staff(){ return signedIn() && exists(/databases/$(database)/documents/users/$(request.auth.uid)) && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['expert','admin']; }
+    function admin(){ return signedIn() && exists(/databases/$(database)/documents/users/$(request.auth.uid)) && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin'; }
+    match /users/{uid} {
+      allow read: if owner(uid) || admin();
+      allow create: if owner(uid) && request.resource.data.role == 'learner' && request.resource.data.keys().hasOnly(['name','email','role','createdAt']);
+      allow update: if admin() || (owner(uid) && request.resource.data.diff(resource.data).changedKeys().hasOnly(['name','email']));
+      allow delete: if admin();
+      match /private/{docId} {
+        allow read,write: if owner(uid);
+      }
+    }
+    match /contributions/{cid} {
+      allow create: if signedIn() && request.resource.data.author == request.auth.uid
+        && request.resource.data.status == 'pending'
+        && request.resource.data.type in ['word','phrase','correction','audio']
+        && request.resource.data.title is string && request.resource.data.title.size() > 0 && request.resource.data.title.size() <= 150
+        && request.resource.data.translation is string && request.resource.data.note is string
+        && request.resource.data.keys().hasOnly(['id','type','title','translation','note','createdAt','status','author','audioPath']);
+      allow get,list: if (signedIn() && resource.data.author == request.auth.uid) || staff();
+      allow update: if staff()
+        && request.resource.data.diff(resource.data).changedKeys().hasOnly(['status','reviewNote','reviewedAt'])
+        && request.resource.data.status in ['approved','rejected'];
+      allow delete: if admin();
+    }
+    match /stories/{storyId} {
+      allow create: if signedIn() && request.resource.data.author == request.auth.uid
+        && request.resource.data.status == 'pending'
+        && request.resource.data.title is string && request.resource.data.title.size() > 0 && request.resource.data.title.size() <= 100
+        && request.resource.data.roman is string && request.resource.data.roman.size() > 0
+        && request.resource.data.keys().hasOnly(['id','title','roman','translation','description','category','createdAt','status','author']);
+      allow read: if (signedIn() && resource.data.author == request.auth.uid) || staff();
+      allow update: if staff() && request.resource.data.diff(resource.data).changedKeys().hasOnly(['status','reviewNote','reviewedAt']) && request.resource.data.status in ['approved','rejected'];
+      allow delete: if admin();
+    }
+  }
+}

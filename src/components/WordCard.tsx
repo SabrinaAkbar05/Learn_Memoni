@@ -1,0 +1,12 @@
+import {useState} from 'react';
+import {Bookmark,Check,Copy,Share2,Volume2,VolumeX} from 'lucide-react';
+import type {Word} from '../types';
+import {hasAudio} from '../data/catalog';
+import {playWordAudio} from '../lib/audio';
+import {useLearning} from '../lib/LearningContext';
+export function WordCard({word,onOpen}:{word:Word;onOpen:(word:Word)=>void}){
+ const {data,toggleFavorite}=useLearning();const [copied,setCopied]=useState(false);const saved=data.favorites.includes(word.id);
+ async function share(){const text=`${word.memoni_script} · ${word.roman_memoni} — ${word.english_meaning}`;if(navigator.share){try {await navigator.share({title:'Learn Memoni',text})}catch { /* user cancelled */ }}else await copy();}
+ async function copy(){try {await navigator.clipboard.writeText(`${word.memoni_script} · ${word.roman_memoni} — ${word.english_meaning}`);setCopied(true);setTimeout(()=>setCopied(false),1300);}catch {setCopied(false);}}
+ return <article className="word-card"><div className="word-card-top"><span className="word-card-emoji">{word.emoji}</span><button aria-label={saved?'Remove from favorites':'Save word'} aria-pressed={saved} className={`favorite-btn ${saved?'is-saved':''}`} onClick={()=>toggleFavorite(word.id)}><Bookmark size={19} fill={saved?'currentColor':'none'}/></button></div><button className="word-content" onClick={()=>onOpen(word)} aria-label={`View ${word.roman_memoni||word.english_meaning}`}><span className="word-script" dir="rtl">{word.memoni_script||'Awaiting verification'}</span><span className="word-roman">{word.roman_memoni||'Awaiting verification'}</span><span className="word-english">{word.english_meaning}</span><span className="word-urdu" dir="rtl">{word.urdu_meaning}</span></button><div className="word-card-bottom"><span className={`difficulty difficulty-${word.difficulty}`}>{word.difficulty}</span><div className="word-actions"><button aria-label="Copy word" className="icon-button" onClick={copy}>{copied?<Check size={17}/>:<Copy size={17}/>}</button><button aria-label="Share word" className="icon-button" onClick={share}><Share2 size={17}/></button><button className="icon-button" title={hasAudio(word)?'Play real recording':'Native audio not yet available'} aria-label={hasAudio(word)?'Play pronunciation':'No recording yet'} onClick={()=>playWordAudio(word)} disabled={!hasAudio(word)}>{hasAudio(word)?<Volume2 size={18}/>:<VolumeX size={18}/>}</button></div></div></article>
+}

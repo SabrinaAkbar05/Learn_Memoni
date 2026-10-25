@@ -1,0 +1,8 @@
+export type Difficulty='beginner'|'intermediate';
+export type Word={id:string;category:string;emoji:string;memoni_script:string;roman_memoni:string;urdu_meaning:string;english_meaning:string;difficulty:Difficulty;manual_review:boolean;audio_key:string;tags:string[];};
+export type Review={due:string;interval:number;ease:number;repetitions:number;lastReviewed:string};
+export type ContributionType='word'|'phrase'|'correction'|'audio';
+export type Contribution={id:string;type:ContributionType;title:string;translation:string;note:string;createdAt:string;status:'local-draft'|'pending'|'approved'|'rejected';author?:string;reviewNote?:string;audioPath?:string};
+export type Video={id:string;title:string;embed:string;provider:'YouTube'|'Google Drive'};
+export type Story={id:string;title:string;description:string;roman:string;translation:string;category:string;createdAt:string;status:'local-draft'|'pending'|'approved';author?:string};
+export type LearningData={name:string;avatar:string;goal:number;xp:number;streak:number;lastActive:string;favorites:string[];learned:string[];completedLessons:string[];reviewed:Record<string,Review>;quiz:{answered:number;correct:number};quizRewarded:Record<string,boolean>;categoryBest:Record<string,number>;activity:Record<string,number>;contributions:Contribution[];stories:Story[];videos:Video[];dark:boolean;onboarded:boolean;dailyChallenge:Record<string,boolean>;dailyStats:Record<string,{quizCorrect:number;reviews:number;lessons:number}>;finishedScenarios:string[];notes:Record<string,string>;};

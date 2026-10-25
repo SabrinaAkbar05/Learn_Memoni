@@ -1,0 +1,11 @@
+import {collection,doc,getDocs,query,setDoc,updateDoc,where} from 'firebase/firestore';
+import {ref,uploadBytes,getDownloadURL} from 'firebase/storage';
+import {firestore,cloudStorage} from './firebase';
+import type {Contribution,Story} from '../types';
+export async function submitContributionCloud(contribution:Contribution,uid:string,audio?:Blob){if(!firestore)throw Error('Cloud connection is not configured.');let audioPath='';if(audio){if(!cloudStorage)throw Error('Cloud Storage not configured.');if(audio.size>10*1024*1024)throw Error('Audio must be under 10 MB.');const key=`contributions/${uid}/${contribution.id}.webm`;await uploadBytes(ref(cloudStorage,key),audio,{contentType:audio.type||'audio/webm'});audioPath=key;}await setDoc(doc(firestore,'contributions',contribution.id),{...contribution,author:uid,status:'pending',audioPath,createdAt:new Date().toISOString()});}
+export async function submitStoryCloud(story:Story,uid:string){if(!firestore)throw Error('Cloud connection is not configured.');await setDoc(doc(firestore,'stories',story.id),{...story,status:'pending',author:uid,createdAt:new Date().toISOString()});}
+export async function listMyStories(uid:string){if(!firestore)return [];const result=await getDocs(query(collection(firestore,'stories'),where('author','==',uid)));return result.docs.map(d=>({...d.data(),id:d.id} as Story));}
+export async function listMyContributions(uid:string){if(!firestore)return [];const result=await getDocs(query(collection(firestore,'contributions'),where('author','==',uid)));return result.docs.map(d=>({...d.data(),id:d.id} as Contribution));}
+export async function listPending(){if(!firestore)return [];const snap=await getDocs(query(collection(firestore,'contributions'),where('status','==','pending')));return snap.docs.map(d=>({...d.data(),id:d.id} as Contribution))}
+export async function reviewCloud(id:string,status:'approved'|'rejected',reviewNote:string){if(!firestore)throw Error('Cloud not configured');await updateDoc(doc(firestore,'contributions',id),{status,reviewNote,reviewedAt:new Date().toISOString()})}
+export async function getContributionRecording(audioPath:string){if(!cloudStorage)throw Error('Storage not configured');return getDownloadURL(ref(cloudStorage,audioPath))}

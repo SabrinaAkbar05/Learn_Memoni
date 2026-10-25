@@ -1,0 +1,11 @@
+import {initializeApp,getApps,getApp,type FirebaseApp} from 'firebase/app';
+import {getAuth,type Auth} from 'firebase/auth';
+import {getFirestore,type Firestore} from 'firebase/firestore';
+import {getStorage,type FirebaseStorage} from 'firebase/storage';
+const env=import.meta.env;
+const config={apiKey:env.VITE_FIREBASE_API_KEY,authDomain:env.VITE_FIREBASE_AUTH_DOMAIN,projectId:env.VITE_FIREBASE_PROJECT_ID,storageBucket:env.VITE_FIREBASE_STORAGE_BUCKET,appId:env.VITE_FIREBASE_APP_ID,messagingSenderId:env.VITE_FIREBASE_MESSAGING_SENDER_ID};
+export const CLOUD_CONFIGURED=Boolean(config.apiKey&&config.authDomain&&config.projectId&&config.appId);
+const app:FirebaseApp|null=CLOUD_CONFIGURED?(getApps().length?getApp():initializeApp(config)):null;
+export const firebaseAuth:Auth|null=app?getAuth(app):null;
+export const firestore:Firestore|null=app?getFirestore(app):null;
+export const cloudStorage:FirebaseStorage|null=app?getStorage(app):null;
