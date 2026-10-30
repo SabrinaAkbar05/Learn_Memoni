@@ -1,0 +1,316 @@
+{
+  "greet_001": {
+    "primary": "Salam.m4a",
+    "format": "m4a",
+    "m4a": "Salam.m4a"
+  },
+  "greet_002": {
+    "primary": "How are you.ogg",
+    "ogg": "How are you.ogg",
+    "fallback": "Kien_ayo.m4a",
+    "m4a": "Kien_ayo.m4a",
+    "format": "ogg"
+  },
+  "greet_003": {
+    "primary": "I am fine.ogg",
+    "ogg": "I am fine.ogg",
+    "fallback": "aoun_theek_ayan.m4a",
+    "m4a": "aoun_theek_ayan.m4a",
+    "format": "ogg"
+  },
+  "greet_004": {
+    "primary": "Khuda_hafiz.m4a",
+    "format": "m4a",
+    "m4a": "Khuda_hafiz.m4a"
+  },
+  "greet_005": {
+    "primary": "Thank You.ogg",
+    "ogg": "Thank You.ogg",
+    "fallback": "Mehrbani.m4a",
+    "m4a": "Mehrbani.m4a",
+    "format": "ogg"
+  },
+  "greet_006": {
+    "primary": "Khush_amded.m4a",
+    "format": "m4a",
+    "m4a": "Khush_amded.m4a"
+  },
+  "greet_007": {
+    "primary": "Maaf_krja.m4a",
+    "format": "m4a",
+    "m4a": "Maaf_krja.m4a"
+  },
+  "greet_011": {
+    "primary": "see you later.ogg",
+    "ogg": "see you later.ogg",
+    "fallback": "Phir_milengy.m4a",
+    "m4a": "Phir_milengy.m4a",
+    "format": "ogg"
+  },
+  "greet_012": {
+    "primary": "Mubarak.m4a",
+    "format": "m4a",
+    "m4a": "Mubarak.m4a"
+  },
+  "greet_013": {
+    "primary": "Remember me in your prayers.ogg",
+    "ogg": "Remember me in your prayers.ogg",
+    "fallback": "dua_mai_yaad_rkhja.m4a",
+    "m4a": "dua_mai_yaad_rkhja.m4a",
+    "format": "ogg"
+  },
+  "family_001": {
+    "primary": "Abbu.m4a",
+    "format": "m4a",
+    "m4a": "Abbu.m4a"
+  },
+  "family_002": {
+    "primary": "Ammi.m4a",
+    "format": "m4a",
+    "m4a": "Ammi.m4a"
+  },
+  "family_004": {
+    "primary": "Nani.m4a",
+    "format": "m4a",
+    "m4a": "Nani.m4a"
+  },
+  "family_005": {
+    "primary": "Nana.m4a",
+    "format": "m4a",
+    "m4a": "Nana.m4a"
+  },
+  "family_006": {
+    "primary": "Beti.m4a",
+    "format": "m4a",
+    "m4a": "Beti.m4a"
+  },
+  "family_007": {
+    "primary": "Beta.m4a",
+    "format": "m4a",
+    "m4a": "Beta.m4a"
+  },
+  "family_012": {
+    "primary": "Shohar.m4a",
+    "format": "m4a",
+    "m4a": "Shohar.m4a"
+  },
+  "food_001": {
+    "primary": "Roti.m4a",
+    "format": "m4a",
+    "m4a": "Roti.m4a"
+  },
+  "food_002": {
+    "primary": "Chawal.m4a",
+    "format": "m4a",
+    "m4a": "Chawal.m4a"
+  },
+  "food_004": {
+    "primary": "Doodh.m4a",
+    "format": "m4a",
+    "m4a": "Doodh.m4a"
+  },
+  "food_005": {
+    "primary": "Machli.m4a",
+    "format": "m4a",
+    "m4a": "Machli.m4a"
+  },
+  "food_008": {
+    "primary": "Chai.m4a",
+    "format": "m4a",
+    "m4a": "Chai.m4a"
+  },
+  "food_009": {
+    "primary": "Piyaaz.m4a",
+    "format": "m4a",
+    "m4a": "Piyaaz.m4a"
+  },
+  "food_010": {
+    "primary": "Allo.m4a",
+    "format": "m4a",
+    "m4a": "Allo.m4a"
+  },
+  "numbers_001": {
+    "primary": "One.m4a",
+    "format": "m4a",
+    "m4a": "One.m4a"
+  },
+  "numbers_002": {
+    "primary": "Two.m4a",
+    "format": "m4a",
+    "m4a": "Two.m4a"
+  },
+  "numbers_003": {
+    "primary": "Three.m4a",
+    "format": "m4a",
+    "m4a": "Three.m4a"
+  },
+  "numbers_004": {
+    "primary": "Four.m4a",
+    "format": "m4a",
+    "m4a": "Four.m4a"
+  },
+  "numbers_005": {
+    "primary": "Five.m4a",
+    "format": "m4a",
+    "m4a": "Five.m4a"
+  },
+  "numbers_006": {
+    "primary": "Six.m4a",
+    "format": "m4a",
+    "m4a": "Six.m4a"
+  },
+  "numbers_007": {
+    "primary": "Seven.m4a",
+    "format": "m4a",
+    "m4a": "Seven.m4a"
+  },
+  "numbers_008": {
+    "primary": "Eight.m4a",
+    "format": "m4a",
+    "m4a": "Eight.m4a"
+  },
+  "numbers_009": {
+    "primary": "Nine.m4a",
+    "format": "m4a",
+    "m4a": "Nine.m4a"
+  },
+  "numbers_010": {
+    "primary": "Ten.m4a",
+    "format": "m4a",
+    "m4a": "Ten.m4a"
+  },
+  "numbers_011": {
+    "primary": "Eleven.m4a",
+    "format": "m4a",
+    "m4a": "Eleven.m4a"
+  },
+  "numbers_012": {
+    "primary": "Twelve.m4a",
+    "format": "m4a",
+    "m4a": "Twelve.m4a"
+  },
+  "numbers_013": {
+    "primary": "Thirteen.m4a",
+    "format": "m4a",
+    "m4a": "Thirteen.m4a"
+  },
+  "numbers_014": {
+    "primary": "Fourteen.m4a",
+    "format": "m4a",
+    "m4a": "Fourteen.m4a"
+  },
+  "numbers_015": {
+    "primary": "Fifteen.m4a",
+    "format": "m4a",
+    "m4a": "Fifteen.m4a"
+  },
+  "numbers_016": {
+    "primary": "Twenty.m4a",
+    "format": "m4a",
+    "m4a": "Twenty.m4a"
+  },
+  "numbers_017": {
+    "primary": "Twenty_five.m4a",
+    "format": "m4a",
+    "m4a": "Twenty_five.m4a"
+  },
+  "numbers_018": {
+    "primary": "Fifty.m4a",
+    "format": "m4a",
+    "m4a": "Fifty.m4a"
+  },
+  "numbers_019": {
+    "primary": "Hundred.m4a",
+    "format": "m4a",
+    "m4a": "Hundred.m4a"
+  },
+  "daily_001": {
+    "primary": "What is your name.ogg",
+    "ogg": "What is your name.ogg",
+    "fallback": "Your_name.m4a",
+    "m4a": "Your_name.m4a",
+    "format": "ogg"
+  },
+  "daily_002": {
+    "primary": "my name is momi.ogg",
+    "ogg": "my name is momi.ogg",
+    "fallback": "My_name.m4a",
+    "m4a": "My_name.m4a",
+    "format": "ogg"
+  },
+  "daily_003": {
+    "primary": "where are you from.ogg",
+    "ogg": "where are you from.ogg",
+    "fallback": "From_where.m4a",
+    "m4a": "From_where.m4a",
+    "format": "ogg"
+  },
+  "daily_004": {
+    "primary": "I am from Karachi.ogg",
+    "ogg": "I am from Karachi.ogg",
+    "fallback": "From_Karachi.m4a",
+    "m4a": "From_Karachi.m4a",
+    "format": "ogg"
+  },
+  "daily_005": {
+    "primary": "How much is this.ogg",
+    "ogg": "How much is this.ogg",
+    "fallback": "Price.m4a",
+    "m4a": "Price.m4a",
+    "format": "ogg"
+  },
+  "daily_006": {
+    "primary": "I am hungry.ogg",
+    "ogg": "I am hungry.ogg",
+    "fallback": "Hunger.m4a",
+    "m4a": "Hunger.m4a",
+    "format": "ogg"
+  },
+  "daily_008": {
+    "primary": "Love.m4a",
+    "format": "m4a",
+    "m4a": "Love.m4a"
+  },
+  "daily_009": {
+    "primary": "I am sleepy.ogg",
+    "ogg": "I am sleepy.ogg",
+    "fallback": "Sleep.m4a",
+    "m4a": "Sleep.m4a",
+    "format": "ogg"
+  },
+  "daily_010": {
+    "primary": "Going.m4a",
+    "format": "m4a",
+    "m4a": "Going.m4a"
+  },
+  "daily_013": {
+    "primary": "Time.m4a",
+    "format": "m4a",
+    "m4a": "Time.m4a"
+  },
+  "daily_015": {
+    "primary": "Pain.m4a",
+    "format": "m4a",
+    "m4a": "Pain.m4a"
+  },
+  "daily_018": {
+    "primary": "What_day.m4a",
+    "format": "m4a",
+    "m4a": "What_day.m4a"
+  },
+  "daily_019": {
+    "primary": "Where_live.m4a",
+    "format": "m4a",
+    "m4a": "Where_live.m4a"
+  },
+  "daily_007": {
+    "primary": "I am thirsty.ogg",
+    "ogg": "I am thirsty.ogg",
+    "format": "ogg"
+  },
+  "daily_011": {
+    "primary": "I don't understand.ogg",
+    "ogg": "I don't understand.ogg",
+    "format": "ogg"
+  }
+}

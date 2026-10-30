@@ -19,8 +19,8 @@ test('all entries preserve core language fields and flag incomplete translations
   if(!word.roman_memoni||!word.memoni_script)assert.equal(word.manual_review,true,`${word.id} must be flagged for expert review`);
  }
 });
-test('all 55 source audio recordings match an actual archived file',()=>{
- assert.equal(Object.keys(audioMap).length,55);
+test('all source audio recordings match an actual archived file',()=>{
+ assert.equal(Object.keys(audioMap).length,58);
  const ids=new Set(words.map(w=>w.audio_key));
  for(const [id,filename] of Object.entries(audioMap)){
   assert.ok(ids.has(id),`${id} has no word`);

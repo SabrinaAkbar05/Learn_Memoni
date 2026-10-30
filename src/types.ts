@@ -1,4 +1,5 @@
 export type Difficulty='beginner'|'intermediate';
+export type AudioEntry={primary:string;fallback?:string;ogg?:string;m4a?:string;format:string;};
 export type Word={id:string;category:string;emoji:string;memoni_script:string;roman_memoni:string;urdu_meaning:string;english_meaning:string;difficulty:Difficulty;manual_review:boolean;audio_key:string;tags:string[];};
 export type Review={due:string;interval:number;ease:number;repetitions:number;lastReviewed:string};
 export type ContributionType='word'|'phrase'|'correction'|'audio';
